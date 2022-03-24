@@ -1,56 +1,73 @@
 <?php
 
-$paraQue = $_POST['pregunta1'];
+include("con_db.php");
 
-if($paraQue === 'difundir'){
-    $tipo = $_POST['pregunta2'];
-    $caracteristicas = $_POST['checkbox_form1'];
+if(isset($_POST['enviar'])){
+    $name = trim($_POST['name']);
+    $apellidos = trim($_POST['apellidos']);
+    $email = trim($_POST['email']);
+    $ciudad = trim($_POST['ciudad']);
+    $paraQue = trim($_POST['pregunta1']);
+
+    if($paraQue === 'difundir'){
+        $tipo = $_POST['pregunta2'];
+        $ofrece = "no aplica";
+        $caracteristicas = $_POST['checkbox_form1'];
+        $carritoCompras = "no aplica";
+        $plataformaEnvios = "no aplica";
     
+        if(empty($_POST['mas20'])){
+            $productos = $_POST['pregunta4'];
+        }else{
+            $productos = $_POST['mas20'];
+        }
 
-    if(empty($_POST['mas20'])){
-        $productos = $_POST['pregunta4'];
+        $fecha = date("d/m/y");
+        
+        $consulta = "INSERT INTO datos(nombre, apellidos, email, ciudad, para, tipo, ofrece, secciones, carrito, envios, num_productos, fecha) VALUES ('$name','$apellidos','$email','$ciudad','$paraQue','$tipo','$ofrece','$caracteristicas','$carritoCompras','$plataformaEnvios','$productos','$fecha')";
+
+        $resultado = mysqli_query($conex,$consulta);
+
+        /* if ($resultado) {
+	    	?> 
+	    	<h3 class="ok">¡Te has inscripto correctamente!</h3>
+           <?php
+	    } else {
+	    	?> 
+	    	<h3 class="bad">¡Ups ha ocurrido un error!</h3>
+           <?php
+	    } */
+
     }else{
-        $productos = $_POST['mas20'];
+
+        $tipo = "no aplica";
+        $ofrece = $_POST['pregunta2-form2'];
+        $caracteristicas = $_POST['checkbox_form2'];
+        $carritoCompras = $_POST['pregunta4-form2'];
+        $plataformaEnvios = $_POST['pregunta5-form2'];
+    
+        if(empty($_POST['mas20_2'])){
+            $productos = $_POST['pregunta6'];
+        }else{
+            $productos = $_POST['mas20_2'];
+        }
+
+        $fecha = date("d/m/y");
+        
+        $consulta = "INSERT INTO datos(nombre, apellidos, email, ciudad, para, tipo, ofrece, secciones, carrito, envios, num_productos, fecha) VALUES ('$name','$apellidos','$email','$ciudad','$paraQue','$tipo','$ofrece','$caracteristicas','$carritoCompras','$plataformaEnvios','$productos','$fecha')";
+
+        /* $resultado = mysqli_query($conex,$consulta);
+        if ($resultado) {
+	    	?> 
+	    	<h3 class="ok">¡Te has inscripto correctamente!</h3>
+           <?php
+	    } else {
+	    	?> 
+	    	<h3 class="bad">¡Ups ha ocurrido un error!</h3>
+           <?php
+	    } */
     }
 
-    echo "¿Para qué necesitas tu sitio? $paraQue";
-    echo "<br>";
-    echo "tipo de pagina: $tipo";
-    echo "<br>";
-    echo "caracteristicas: $caracteristicas";
-    echo "<br>";
-    echo "productos: $productos";
-    echo "<br>";
-
-}else{
-    $ofreces = $_POST['pregunta2-form2'];
-    $caracteristicas = $_POST['checkbox_form2'];
-    $carritoCompras = $_POST['pregunta4-form2'];
-    $plataformaEnvios = $_POST['pregunta5-form2'];
-    
-    if(empty($_POST['mas20_2'])){
-        $productos = $_POST['pregunta6'];
-    }else{
-        $productos = $_POST['mas20_2'];
-    }
-
-    echo "¿Para qué necesitas tu sitio? $paraQue";
-    echo "<br>";
-    echo "Ofreces: $ofreces";
-    echo "<br>";
-    echo "Caracteristicas: $caracteristicas";
-    echo "<br>";
-    echo "Carrito de compras: $carritoCompras";
-    echo "<br>";
-    echo "Plataforma de envios: $plataformaEnvios";
-    echo "<br>";
-    echo "productos: $productos";
-    echo "<br>";
 }
-
-
-
-
-
 
 ?>

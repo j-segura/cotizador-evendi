@@ -237,7 +237,7 @@
                 </div>
                 <div class="fila3">
 
-                    <input type="checkbox" name="checkbox_form1" id="checkbox7_form1" class="checkbox ghost reset valores" data-valor="100000" value="Tratamiento de datos personales" form="form-query">
+                    <input type="checkbox" name="checkbox_form1" id="checkbox7_form1" class="checkbox ghost reset valores" data-valor="100000" data-btn="#next3-linea1" value="Tratamiento de datos personales" form="form-query">
                     <label class="checkbox7_form1" for="checkbox7_form1" data-btn="#next3-linea1">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -915,30 +915,33 @@
     <div id="lastForm" class="lastForm">
         <h1>¡Ya estas muy cerca!</h1>
         <p>Completa tus datos para recibir cotización oficial</p>
-        <form action="enviar.php" method="post" id="form-query">
+        <form method="post" id="form-query">
 
             <label for="nombre">¿Cuál es tu nombre? <span class="color">*</span></label>
-            <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+            <input type="text" id="nombre" name="name" placeholder="Escribe tu nombre" required>
 
             <label for="apellido">¿Cuáles son tus apellidos? <span class="color">*</span></label>
-            <input type="text" id="apellido" placeholder="Escribe tus apellidos" required>
+            <input type="text" id="apellido" name="apellidos" placeholder="Escribe tus apellidos" required>
 
             <label for="correo">¿Cuál es tu correo? <span class="color">*</span></label>
-            <input type="text" id="correo" placeholder="Escribe tu correo electrónico" required>
+            <input type="text" id="correo" name="email" placeholder="Escribe tu correo electrónico" required>
 
             <label for="ciudad">¿Cuál es tu ciudad? <span class="color">*</span></label>
-            <input type="text" id="ciudad" placeholder="Escoge tu ciudad de residencia" required>
+            <input type="text" id="ciudad" name="ciudad" placeholder="Escoge tu ciudad de residencia" required>
 
             <input type="checkbox" id="terminos" required>
             <label for="terminos" class="terminos">
                 Al enviar este formulario, acepto que mis datos sean usados por Evendi S.A.S y la marca Nilo App para ponerse en contacto conmigo en el marco de esta promoción y campañas asociadas.
             </label>
 
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" name="enviar">
 
         </form>
     </div>
 
+    <?php
+    include("enviar.php");
+    ?>
     <script src="./resources/js/main.js"></script>
     <script src="./resources/js/logic.js"></script>
 </body>
