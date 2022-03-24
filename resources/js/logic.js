@@ -315,9 +315,12 @@ $('#next3-linea1').click(function(){
         }
     });
 
-    console.log(is_checked);
+    let secciones = is_checked.join(", ");
 
     $('#internas').html(is_checked.join(", "));
+    $('#secciones').val(secciones);
+
+    console.log(secciones);
 });
 
 $('#next3-linea2').click(function(){
@@ -330,9 +333,12 @@ $('#next3-linea2').click(function(){
         }
     });
 
-    console.log(is_checked);
+    let secciones = is_checked.join(", ");
 
     $('#internas2').html(is_checked.join(", "));
+    $('#secciones').val(secciones);
+
+    console.log(secciones);
 });
 
 //esta funcion resetea el formulario
@@ -358,8 +364,10 @@ $('.btn-reset').click(function(){
 
 
 $('.reset_cuantos').click(function(){
-    $('#cuantos') = "";
+    $('#cuantos').val('');
 });
+
+
 
 
 

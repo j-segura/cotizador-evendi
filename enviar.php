@@ -12,7 +12,7 @@ if(isset($_POST['enviar'])){
     if($paraQue === 'difundir'){
         $tipo = $_POST['pregunta2'];
         $ofrece = "no aplica";
-        $caracteristicas = $_POST['checkbox_form1'];
+        $caracteristicas = $_POST['secciones'];
         $carritoCompras = "no aplica";
         $plataformaEnvios = "no aplica";
     
@@ -42,7 +42,7 @@ if(isset($_POST['enviar'])){
 
         $tipo = "no aplica";
         $ofrece = $_POST['pregunta2-form2'];
-        $caracteristicas = $_POST['checkbox_form2'];
+        $caracteristicas = $_POST['secciones'];
         $carritoCompras = $_POST['pregunta4-form2'];
         $plataformaEnvios = $_POST['pregunta5-form2'];
     
@@ -56,8 +56,8 @@ if(isset($_POST['enviar'])){
         
         $consulta = "INSERT INTO datos(nombre, apellidos, email, ciudad, para, tipo, ofrece, secciones, carrito, envios, num_productos, fecha) VALUES ('$name','$apellidos','$email','$ciudad','$paraQue','$tipo','$ofrece','$caracteristicas','$carritoCompras','$plataformaEnvios','$productos','$fecha')";
 
-        /* $resultado = mysqli_query($conex,$consulta);
-        if ($resultado) {
+        $resultado = mysqli_query($conex,$consulta);
+        /* if ($resultado) {
 	    	?> 
 	    	<h3 class="ok">¡Te has inscripto correctamente!</h3>
            <?php

@@ -936,6 +936,8 @@
 
             <input type="submit" value="Enviar" name="enviar">
 
+            <input type="text" name="secciones" id="secciones" style="display: none;">
+
         </form>
     </div>
 
