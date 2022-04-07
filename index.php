@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="./resources/css/main.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <!-- <link rel="stylesheet" href="./resources/css/normalize.css"> -->
 </head>
 <body>
     <div class="pink"></div>
@@ -917,24 +916,29 @@
         <p>Completa tus datos para recibir cotización oficial</p>
         <form method="post" id="form-query">
 
-            <label for="nombre">¿Cuál es tu nombre? <span class="color">*</span></label>
-            <input type="text" id="nombre" name="name" placeholder="Escribe tu nombre" required>
+            <label for="nombre">¿Cuál es tu nombre?<span class="color">*</span></label>
+            <input class="in" type="text" id="nombre" name="name" placeholder="Escribe tu nombre" required>
 
-            <label for="apellido">¿Cuáles son tus apellidos? <span class="color">*</span></label>
-            <input type="text" id="apellido" name="apellidos" placeholder="Escribe tus apellidos" required>
+            <label for="apellido">¿Cuáles son tus apellidos?<span class="color">*</span></label>
+            <input class="in" type="text" id="apellido" name="apellidos" placeholder="Escribe tus apellidos" required>
 
-            <label for="correo">¿Cuál es tu correo? <span class="color">*</span></label>
-            <input type="text" id="correo" name="email" placeholder="Escribe tu correo electrónico" required>
+            <label for="correo">¿Cuál es tu correo?<span class="color">*</span></label>
+            <input class="in" type="text" id="correo" name="email" placeholder="Escribe tu correo electrónico" required>
 
-            <label for="ciudad">¿Cuál es tu ciudad? <span class="color">*</span></label>
-            <input type="text" id="ciudad" name="ciudad" placeholder="Escoge tu ciudad de residencia" required>
+            <label for="ciudad">¿Cuál es tu ciudad?<span class="color">*</span></label>
+            <input class="in" type="text" id="ciudad" name="ciudad" placeholder="Escoge tu ciudad de residencia" required>
 
             <input type="checkbox" id="terminos" required>
             <label for="terminos" class="terminos">
-                Al enviar este formulario, acepto que mis datos sean usados por Evendi S.A.S y la marca Nilo App para ponerse en contacto conmigo en el marco de esta promoción y campañas asociadas.
+                <div class="cubo">
+                    <svg width="11" height="9" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 7L7 13L17 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <p>Al enviar este formulario, acepto que mis datos sean usados por Evendi S.A.S y la marca Nilo App para ponerse en contacto conmigo en el marco de esta promoción y campañas asociadas.</p>
             </label>
 
-            <input type="submit" value="Enviar" name="enviar">
+            <input type="submit" value="Enviar" name="enviar" class="in">
 
             <input type="text" name="secciones" id="secciones" style="display: none;">
 

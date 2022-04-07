@@ -11,13 +11,13 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
 }
 
 .pink {
   width: 100%;
   height: 45%;
-  background-color: #f130d5;
+  background-color: #F130D5;
   position: absolute;
   top: 0;
   z-index: -1;
@@ -1103,128 +1103,148 @@ input[type="radio"]:checked + label .number {
   justify-content: space-between;
 }
 
-
-
 /* LAST FORM */
 
 #sombra {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 1300px;
-  position: absolute;
-  top: 0;
-  z-index: 3;
-  display: none;
-  transform: 0.5s;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 1300px;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    display: none;
+    transform: 0.5s;
+}
+  
+#lastForm {
+    opacity: 1;
+    width: 739px;
+    height: 716px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    display: none;
+    z-index: 5;
+  
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    margin-left: -369.5px;
+    transition: 0.9s;
+    padding: 42px 45px;
+    text-align: center;
+}
+  
+.lastForm h1 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    /* identical to box height */
+    text-align: center;
+    color: #6C1C81;
+}
+  
+.lastForm p {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 29px;
+    /* identical to box height */
+    text-align: center;
+    color: #4B4B4B;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+  
+.in {
+    display: block;
+    width: 100%;
+    height: 53px;
+    background: #FFFFFF;
+    border: 1px solid #C1C1C1;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding-left: 18px;
+    margin: 9px 0 18px 0;
 }
 
- #lastForm {
-   opacity: 1;
-   width: 739px;
-   height: 716px;
-   background-color: #fff;
-   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-   border-radius: 15px;
-   display: none;
-   z-index: 5;
-
-   position: absolute;
-   top: 8%;
-   left: 50%;
-   margin-left: -369.5px;
-   transition: 0.9s;
-   padding: 42px 45px;
-   text-align: center;
- }
-
- .lastForm h1 {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 35px;
-  line-height: 41px;
-  /* identical to box height */
-  text-align: center;
-  color: #6C1C81;
- }
-
- .lastForm p {
-  font-family: Quicksand;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 23px;
-  line-height: 29px;
-  /* identical to box height */
-  text-align: center;
-  color: #4B4B4B;
-  margin-top: 10px;
-  margin-bottom: 35px;
- }
-
- .lastForm form input {
-   display: block;
-   width: 100%;
-   height: 53px;
-   background: #FFFFFF;
-   border: 1px solid #C1C1C1;
-   box-sizing: border-box;
-   border-radius: 6px;
-   padding-left: 18px;
-   margin: 9px 0 18px 0;
-
-   /* font-family: 'Roboto', sans-serif;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 14px;
-   line-height: 30px;
-   color: #d85858; */
- }
-
- .lastForm form {
-   text-align: start;
- }
-
- .lastForm label {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  color: #6C6C6C;
- }
-
- .lastForm form input[type="submit"] {
-  height: 63px;
-  background: #F130D5;
-  border-radius: 5px;
-  color: #ffffff;
-
-  font-family: Quicksand;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 30px;
-  text-align: center;
- }
-
-#terminos {
-  width: 19px;
-  height: 19px;
-  background: #FFFFFF;
-  border: 1px solid #C1C1C1;
-  box-sizing: border-box;
-  border-radius: 5px;
-  display: inline-block ;
-  margin: 0;
+.color{
+    color: rgb(253, 166, 95);
+    font-size: 17px;
+}
+  
+.lastForm form {
+    text-align: start;
+}
+  
+.lastForm label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6C6C6C;
+}
+  
+.lastForm form input[type="submit"] {
+    height: 63px;
+    background: #F130D5;
+    border-radius: 5px;
+    color: #ffffff;
+  
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
 }
 
-.terminos {
-  max-width: 1px;
+.terminos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
-.color {
-  color: rgb(253, 107, 107);
+.terminos p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7D7D7D;
+    width: 619px;
+    height: 32px;
+    text-align: left;
+    margin: 0;
 }
 
+.cubo{
+    width: 19px;
+    height: 19px;
+    background: #FFFFFF;
+    border: 1px solid #C1C1C1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 0 !important;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#terminos:checked + label {
+  background: #ffffff;
+  border: none;
+  box-shadow: none;
+}
+
+#terminos:checked + label .cubo {
+    background-color: #25d366;
+    border: #25d366;
+}
+
+  
