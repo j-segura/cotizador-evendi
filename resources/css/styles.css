@@ -39,11 +39,12 @@ body {
 
 /* encabezado del contenedor */
 .container header {
-  width: 943px;
+  width: 100%;
   height: 141px;
-  position: absolute;
-  left: 53px;
-  top: 50px;
+  /* position: absolute;
+  left: 0px;
+  top: 50px; */
+  margin-top: 50px;
   min-width: 250px;
   transition: 0.5s;
 }
@@ -100,6 +101,7 @@ h3 {
   left: 0px;
   bottom: 45px;
   transition: 0.5s;
+  /* padding: 0 54px; */
 }
 
 /* formularios de la linea 1 */
@@ -191,6 +193,7 @@ h3 {
   justify-content: space-between;
   position: absolute;
   bottom: 0px;
+  padding: 0 54px;
 }
 
 button {
@@ -1250,5 +1253,3 @@ input[type="radio"]:checked + label .number {
     background-color: #25d366;
     border: #25d366;
 }
-
-  

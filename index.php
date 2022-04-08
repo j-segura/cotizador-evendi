@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./resources/css/main.css">
-    <link rel="stylesheet" href="./resources/css/responsive.css">
+    <link rel="stylesheet" href="./resources/css/styles.css">
+    <link rel="stylesheet" href="./resources/css/responsive1.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
@@ -949,7 +949,7 @@
     <?php
     include("enviar.php");
     ?>
-    <script src="./resources/js/main.js"></script>
-    <script src="./resources/js/logic.js"></script>
+    <script src="./resources/js/main1.js"></script>
+    <script src="./resources/js/logic1.js"></script>
 </body>
 </html>

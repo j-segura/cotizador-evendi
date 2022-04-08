@@ -80,7 +80,7 @@ op1.onclick = function(){
 
     next1.onclick = function(){
         form1.style.left = '-1100px';
-        form2_linea1.style.left = '53px';
+        form2_linea1.style.left = '0px';
         progress1.style.width = '306px';
         step1_form1.style.background = '#F130D5';
         step2_form1.style.border = '1px solid #F130D5';
@@ -106,7 +106,7 @@ op2.onclick = function(){
 
     next1.onclick = function(){
         form1.style.left = '-1100px';
-        form2_linea2.style.left = '53px';
+        form2_linea2.style.left = '0px';
         progress2.style.width = '235px';
         step1_form2.style.background = '#F130D5';
         step2_form2.style.border = '1px solid #F130D5';

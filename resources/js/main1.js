@@ -80,7 +80,7 @@ var container = document.getElementsByClassName('container');
 
 next2_linea1.onclick = function(){
     form2_linea1.style.left = '-1100px'
-    form3_linea1.style.left = '53px'
+    form3_linea1.style.left = '0px'
     progress1.style.width = '526px';
     step2_form1.style.background = '#F130D5';
     step3_form1.style.border = '1px solid #F130D5';
@@ -96,7 +96,7 @@ next2_linea1.onclick = function(){
 
 next3_linea1.onclick = function(){
     form3_linea1.style.left = '-1100px'
-    form4_linea1.style.left = '53px'
+    form4_linea1.style.left = '0px'
     progress1.style.width = '749px';
     step3_form1.style.background = '#F130D5';
     step4_form1.style.border = '1px solid #F130D5';
@@ -113,7 +113,7 @@ next3_linea1.onclick = function(){
 
 next4_linea1.onclick = function(){
     form4_linea1.style.left = '-1100px';
-    form5_linea1.style.left = '53px';
+    form5_linea1.style.left = '0px';
     progress1.style.width = '960px';
     step4_form1.style.background = '#F130D5';
     step5_form1.style.border = '1px solid #F130D5';
@@ -128,7 +128,7 @@ next4_linea1.onclick = function(){
 /* backs de la linea 1 */
 
 back1_linea1.onclick = function(){
-    form1.style.left = '53px'
+    form1.style.left = '0px'
     form2_linea1.style.left = '1100px'
     progress1.style.width = '96px';
     step1_form1.style.background = '#FFF';
@@ -141,7 +141,7 @@ back1_linea1.onclick = function(){
 }
 
 back2_linea1.onclick = function(){
-    form2_linea1.style.left = '53px'
+    form2_linea1.style.left = '0px'
     form3_linea1.style.left = '1100px'
     progress1.style.width = '306px';
     step2_form1.style.background = '#FFF';
@@ -156,7 +156,7 @@ back2_linea1.onclick = function(){
 }
 
 back3_linea1.onclick = function(){
-    form3_linea1.style.left = '53px'
+    form3_linea1.style.left = '0px'
     form4_linea1.style.left = '1100px'
     progress1.style.width = '526px';
     step3_form1.style.background = '#FFF';
@@ -173,7 +173,7 @@ back3_linea1.onclick = function(){
 }
 
 back4_linea1.onclick = function(){
-    form4_linea1.style.left = '53px'
+    form4_linea1.style.left = '0px'
     form5_linea1.style.left = '1100px'
     progress1.style.width = '749px';
     step4_form1.style.background = '#FFF';
@@ -190,7 +190,7 @@ back4_linea1.onclick = function(){
 
 next2_linea2.onclick = function(){
     form2_linea2.style.left = '-1100px';
-    form3_linea2.style.left = '53px';
+    form3_linea2.style.left = '0px';
     progress2.style.width = '381px';
     step2_form2.style.background = '#F130D5';
     step3_form2.style.border = '1px solid #F130D5';
@@ -213,7 +213,7 @@ var total = document.getElementById('total');
 
 next3_linea2.onclick = function(){
     form3_linea2.style.left = '-1100px';
-    form4_linea2.style.left = '53px';
+    form4_linea2.style.left = '0px';
     progress2.style.width = '534px';
     step3_form2.style.background = '#F130D5';
     step4_form2.style.border = '1px solid #F130D5';
@@ -234,7 +234,7 @@ next3_linea2.onclick = function(){
 
 next4_linea2.onclick = function(){
     form4_linea2.style.left = '-1100px';
-    form5_linea2.style.left = '53px';
+    form5_linea2.style.left = '0px';
     progress2.style.width = '676px';
     step4_form2.style.background = '#F130D5';
     step5_form2.style.border = '1px solid #F130D5';
@@ -250,7 +250,7 @@ next4_linea2.onclick = function(){
 
 next5_linea2.onclick = function(){
     form5_linea2.style.left = '-1100px';
-    form6_linea2.style.left = '53px';
+    form6_linea2.style.left = '0px';
     progress2.style.width = '820px';
     step5_form2.style.background = '#F130D5';
     step6_form2.style.border = '1px solid #F130D5';
@@ -266,7 +266,7 @@ next5_linea2.onclick = function(){
 
 next6_linea2.onclick = function(){
     form6_linea2.style.left = '-1100px';
-    form7_linea2.style.left = '53px';
+    form7_linea2.style.left = '0px';
     progress2.style.width = '960px';
     step6_form2.style.background = '#F130D5';
     step7_form2.style.border = '1px solid #F130D5';
@@ -281,7 +281,7 @@ next6_linea2.onclick = function(){
 /* backs de la linea 2 */
 
 back1_linea2.onclick = function(){
-    form1.style.left = '53px';
+    form1.style.left = '0px';
     form2_linea2.style.left = '1100px';
     progress2.style.width = '106px';
     step1_form2.style.background = '#FFF';
@@ -297,7 +297,7 @@ back1_linea2.onclick = function(){
 }
 
 back2_linea2.onclick = function(){
-    form2_linea2.style.left = '53px';
+    form2_linea2.style.left = '0px';
     form3_linea2.style.left = '1100px';
     progress2.style.width = '235px';
     step2_form2.style.background = '#FFF';
@@ -316,7 +316,7 @@ back2_linea2.onclick = function(){
 }
 
 back3_linea2.onclick = function(){
-    form3_linea2.style.left = '53px';
+    form3_linea2.style.left = '0px';
     form4_linea2.style.left = '1100px';
     progress2.style.width = '381px';
     step3_form2.style.background = '#FFF';
@@ -333,7 +333,7 @@ back3_linea2.onclick = function(){
 }
 
 back4_linea2.onclick = function(){
-    form4_linea2.style.left = '53px';
+    form4_linea2.style.left = '0px';
     form5_linea2.style.left = '1100px';
     progress2.style.width = '534px';
     step4_form2.style.background = '#FFF';
@@ -349,7 +349,7 @@ back4_linea2.onclick = function(){
 }
 
 back5_linea2.onclick = function(){
-    form5_linea2.style.left = '53px';
+    form5_linea2.style.left = '0px';
     form6_linea2.style.left = '1100px';
     progress2.style.width = '676px';
     step5_form2.style.background = '#FFF';
@@ -365,7 +365,7 @@ back5_linea2.onclick = function(){
 }
 
 back6_linea2.onclick = function(){
-    form6_linea2.style.left = '53px';
+    form6_linea2.style.left = '0px';
     form7_linea2.style.left = '1100px';
     progress2.style.width = '820px';
     step6_form2.style.background = '#FFF';
