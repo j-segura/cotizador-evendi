@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: rgba(168, 93, 230, 0.651);
+  background-color: rgba(93, 230, 189, 0.651);
   padding: 2px;
 }
 
@@ -235,7 +235,7 @@ button {
 /* barras de progreso */
 
 .step-row {
-  width: 1051;
+  width: 100%;
   height: 9px;
   margin: 0 auto;
   position: relative;
@@ -247,7 +247,7 @@ button {
 #progress1 {
   position: absolute;
   height: 100%;
-  width: 96px;
+  width: 9.13%;
   background: #f130d5;
   transition: 0.5s;
 }
@@ -255,19 +255,19 @@ button {
 #progress2 {
   position: absolute;
   height: 100%;
-  width: 106px;
+  width: 9%;
   background: #f130d5;
   transition: 0.5s;
 }
 
 .container .step-img {
-  width: 945px;
+  width: 1051px;
   height: 73px;
   position: absolute;
-  left: 53px;
+  left: 0px;
   top: 232px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #img-progress2 {

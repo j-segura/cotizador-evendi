@@ -71,7 +71,7 @@ const inversa = (content) =>{
 op1.onclick = function(){
     progress2.style.display = 'none';
     progress1.style.display = 'block';
-    step_img1.style.left = '53px';
+    step_img1.style.left = '0px';
     step_img2.style.left = '1100px';
     totalGlobal = 0;
     totalGlobal += 1000000;
@@ -81,7 +81,7 @@ op1.onclick = function(){
     next1.onclick = function(){
         form1.style.left = '-1100px';
         form2_linea1.style.left = '0px';
-        progress1.style.width = '306px';
+        progress1.style.width = '29.1%';
         step1_form1.style.background = '#F130D5';
         step2_form1.style.border = '1px solid #F130D5';
 
@@ -90,14 +90,14 @@ op1.onclick = function(){
         icon1_form1[1].style.stroke = "#fff";
         icon2_form1[0].style.stroke = "#F130D5";
     }
-}
+} 
 
 /* linea 2 */
 op2.onclick = function(){
 
     progress1.style.display = 'none';
     progress2.style.display = 'block';
-    step_img2.style.left = '53px';
+    step_img2.style.left = '0px';
     step_img1.style.left = '1100px';
     totalGlobal = 0;
     totalGlobal += 1500000;
@@ -107,7 +107,7 @@ op2.onclick = function(){
     next1.onclick = function(){
         form1.style.left = '-1100px';
         form2_linea2.style.left = '0px';
-        progress2.style.width = '235px';
+        progress2.style.width = '21.35%';
         step1_form2.style.background = '#F130D5';
         step2_form2.style.border = '1px solid #F130D5';
 

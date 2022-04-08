@@ -804,16 +804,12 @@
 
         <!-- linea indicadora de la completacion del formulario -->
         <div class="step-row">
-            <div id="step-row1">
-                <div id="progress1"></div>
-            </div>
-    
-            <div id="step-row2">
-                <div id="progress2"></div>
-            </div>
+            <div id="progress1"></div>
+        
+            <div id="progress2"></div>
         </div>
 
-            <div class="step-img" id="img-progress1">
+        <div class="step-img" id="img-progress1">
                 <div class="circulo" id="step1-form1">
                     <svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path class="icon1-form1" d="M5.16667 20.4444H3.77778C3.04106 20.4444 2.33453 20.1518 1.81359 19.6308C1.29266 19.1099 1 18.4034 1 17.6667V3.77778C1 3.04106 1.29266 2.33453 1.81359 1.81359C2.33453 1.29266 3.04106 1 3.77778 1H26C26.7367 1 27.4432 1.29266 27.9642 1.81359C28.4851 2.33453 28.7778 3.04106 28.7778 3.77778V17.6667C28.7778 18.4034 28.4851 19.1099 27.9642 19.6308C27.4432 20.1518 26.7367 20.4444 26 20.4444H24.6111" stroke="#F130D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -850,9 +846,9 @@
                         </svg>
                         
                 </div>
-            </div>
+        </div>
 
-            <div class="step-img"  id="img-progress2">
+        <div class="step-img"  id="img-progress2">
                 <div class="circulo" id="step1-form2">
                     <svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path class="icon1-form2" d="M5.16667 20.4444H3.77778C3.04106 20.4444 2.33453 20.1518 1.81359 19.6308C1.29266 19.1099 1 18.4034 1 17.6667V3.77778C1 3.04106 1.29266 2.33453 1.81359 1.81359C2.33453 1.29266 3.04106 1 3.77778 1H26C26.7367 1 27.4432 1.29266 27.9642 1.81359C28.4851 2.33453 28.7778 3.04106 28.7778 3.77778V17.6667C28.7778 18.4034 28.4851 19.1099 27.9642 19.6308C27.4432 20.1518 26.7367 20.4444 26 20.4444H24.6111" stroke="#F130D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -904,7 +900,7 @@
                         </svg>
                         
                 </div>
-            </div>
+        </div>
     
     </div>
     
@@ -949,7 +945,7 @@
     <?php
     include("enviar.php");
     ?>
-    <script src="./resources/js/main1.js"></script>
-    <script src="./resources/js/logic1.js"></script>
+    <script src="./resources/js/main.js"></script>
+    <script src="./resources/js/logic.js"></script>
 </body>
 </html>

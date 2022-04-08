@@ -1,7 +1,6 @@
 @media screen and (min-width: 1051px) {
     header h1::before{
         content: '¿Interesado? ';
-
     }
 }
 
@@ -14,6 +13,10 @@
         content: '¿Interesado? ';
 
     }
+
+    .container .step-img{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 675px) and (max-width: 855px) {
@@ -24,6 +27,10 @@
     header h1::before{
         content: '¿Interesado? ';
 
+    }
+
+    .container .step-img{
+        width: 100%;
     }
 }
 
@@ -36,6 +43,9 @@
         padding: 0 30px;
     }
     
+    .container .step-img{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -68,6 +78,10 @@
     .btn-box {
         padding: 0 20px;
     }
+
+    .container .step-img{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -99,5 +113,9 @@
 
     .btn-box {
         padding: 0 8px;
+    }
+
+    .container .step-img{
+        width: 100%;
     }
 }
