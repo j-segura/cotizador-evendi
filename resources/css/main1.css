@@ -105,7 +105,11 @@ h3 {
   left: 0px;
   bottom: 45px;
   transition: 0.5s;
-  /* padding: 0 54px; */
+  padding: 0 3.8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* formularios de la linea 1 */
@@ -144,9 +148,8 @@ h3 {
   line-height: 30px;
   color: #4B4B4B;
 
-  position: absolute;
-  bottom: 133px;
-  left: 50px;
+  width: 100%;
+  padding: 0 6%;
   height: 177px;
   display: flex;
   flex-direction: column;
@@ -195,9 +198,9 @@ h3 {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  bottom: 0px;
-  padding: 0 54px;
+  /* position: absolute;
+  bottom: 0px; */
+  padding: 0 2%;
 }
 
 button {
@@ -242,6 +245,7 @@ button {
   left: 0px;
   top: 264px;
   background-color: #efefef;
+  transition: 0.5s;
 }
 
 #progress1 {
@@ -268,6 +272,8 @@ button {
   top: 232px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  transition: 0.5s;
 }
 
 #img-progress2 {
@@ -309,9 +315,9 @@ form input[type="checkbox"] {
 .quest1 {
   width: 488px;
   height: 226px;
-  position: absolute;
+  /* position: absolute;
   top: 69px;
-  left: 231px;
+  left: 231px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -428,9 +434,6 @@ input[type="radio"]:checked + label .circulito {
 .quest2-form1 {
   width: 628px;
   height: 186px;
-  position: absolute;
-  top: 93px;
-  right: 160px;
   display: flex;
   justify-content: space-between;
 }
@@ -561,9 +564,10 @@ input[type="radio"]:checked + label .circulito2-form1 {
 .quest3-form1 {
   width: 773px;
   height: 262px;
-  position: absolute;
-  top: 93px;
-  left: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .circulito-checkbox {
@@ -597,10 +601,6 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
 .fila1 {
   width: 773px;
   height: 60px;
-  position: absolute;
-  /*   background: #4b4b4b; */
-  top: 0px;
-  left: 0px;
   display: flex;
   justify-content: space-between;
 }
@@ -709,10 +709,6 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
 .fila2 {
   width: 690px;
   height: 60px;
-  position: absolute;
-  /*   background: #4b4b4b; */
-  top: 101px;
-  right: 49px;
   display: flex;
   justify-content: space-between;
 }
@@ -818,9 +814,6 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
 .fila3 {
   width: 773px;
   height: 60px;
-  position: absolute;
-  /*   background: #4b4b4b; */
-  top: 202px;
   display: flex;
   justify-content: space-between;
 }
@@ -895,9 +888,6 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
 .quest4-form1 {
   width: 858px;
   height: 186px;
-  position: absolute;
-  top: 93px;
-  left: 48px;
   display: flex;
   justify-content: space-between;
 }
@@ -983,9 +973,6 @@ input[type="radio"]:checked + label .number {
 .quest2-form2 {
   width: 402px;
   height: 170px;
-  position: absolute;
-  top: 93px;
-  left: 258px;
   display: flex;
   justify-content: space-between;
 }
@@ -1020,9 +1007,10 @@ input[type="radio"]:checked + label .number {
 .quest3-form2 {
   width: 773px;
   height: 363px;
-  position: absolute;
-  top: 93px;
-  left: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* ------- fila4 --------- */
@@ -1030,9 +1018,6 @@ input[type="radio"]:checked + label .number {
 .fila4 {
   width: 673px;
   height: 60px;
-  position: absolute;
-  left: 52px;
-  bottom: 0;
   display: flex;
   justify-content: space-between;
 /*   background-color: #615efc; */
@@ -1107,9 +1092,6 @@ input[type="radio"]:checked + label .number {
 .quest4-form2 {
   width: 402px;
   height: 170px;
-  position: absolute;
-  top: 93px;
-  left: 258px;
   display: flex;
   justify-content: space-between;
 }
