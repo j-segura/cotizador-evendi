@@ -26,7 +26,8 @@ body {
 
 .container {
   width: 1051px;
-  height: 798px;
+  /* height: 798px; */
+  height: auto;
   margin: 8% auto;
   background-color: #fff;
   border-radius: 15px;
@@ -35,22 +36,24 @@ body {
   overflow: hidden;
   transition: 0.5s;
   min-width: 295px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4% 0;
 }
 
 /* encabezado del contenedor */
 .container header {
   width: 100%;
   height: 141px;
-  position: absolute;
-  left: 0px;
-  top: 50px;
-  /* margin-top: 50px; */
   transition: 0.5s;
   padding: 0  3.8%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 header h1 {
@@ -101,9 +104,9 @@ h3 {
 .container form {
   width: 100%;
   height: 396px;
-  position: absolute;
+  /* position: absolute;
   left: 0px;
-  bottom: 45px;
+  bottom: 45px; */
   transition: 0.5s;
   padding: 0 3.8%;
   display: flex;
@@ -115,19 +118,19 @@ h3 {
 /* formularios de la linea 1 */
 
 #form2-linea1 {
-  left: 1100px;
+  display: none;
 }
 
 #form3-linea1 {
-  left: 1100px;
+  display: none;
 }
 
 #form4-linea1 {
-  left: 1100px;
+  display: none;
 }
 
 #form5-linea1 {
-  left: 1100px;
+  display: none;
 }
 
 #form5-linea1 .r {
@@ -159,27 +162,27 @@ h3 {
 /* formularios de la linea 2 */
 
 #form2-linea2 {
-  left: 1100px;
+  display: none;
 }
 
 #form3-linea2 {
-  left: 1100px;
+  display: none;
 }
 
 #form4-linea2 {
-  left: 1100px;
+  display: none;
 }
 
 #form5-linea2 {
-  left: 1100px;
+  display: none;
 }
 
 #form6-linea2 {
-  left: 1100px;
+  display: none;
 }
 
 #form7-linea2 {
-  left: 1100px;
+  display: none;
 }
 
 #form7-linea2 .r {
@@ -235,22 +238,34 @@ button {
   width: 532px;
   color: #fff;
 }
+
+
 /* barras de progreso */
+
+.barra{
+  width: 100%;
+  height: 73px;
+  margin-bottom: 48px;
+}
+
+#barra2{
+  display: none;
+}
 
 .step-row {
   width: 100%;
   height: 9px;
   margin: 0 auto;
-  position: relative;
-  left: 0px;
-  top: 264px;
   background-color: #efefef;
   transition: 0.5s;
+  overflow: hidden;
+  position: relative;
+  top: 32px;
 }
 
 #progress1 {
   position: absolute;
-  height: 100%;
+  height: 9px;
   width: 9.13%;
   background: #f130d5;
   transition: 0.5s;
@@ -258,26 +273,21 @@ button {
 
 #progress2 {
   position: absolute;
-  height: 100%;
+  height: 9px;
   width: 9%;
   background: #f130d5;
   transition: 0.5s;
 }
 
-.container .step-img {
-  width: 1051px;
+.step-img {
+  width: 100%;
   height: 73px;
-  position: absolute;
-  left: 0px;
-  top: 232px;
+  position: relative;
+  bottom: 8px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   transition: 0.5s;
-}
-
-#img-progress2 {
-  left: 1100px;
 }
 
 .circulo {

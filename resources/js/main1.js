@@ -79,8 +79,8 @@ var container = document.getElementsByClassName('container');
 
 
 next2_linea1.onclick = function(){
-    form2_linea1.style.left = '-1100px'
-    form3_linea1.style.left = '0px'
+    form2_linea1.style.display = 'none';
+    form3_linea1.style.display = 'flex';
     progress1.style.width = '50%';
     step2_form1.style.background = '#F130D5';
     step3_form1.style.border = '1px solid #F130D5';
@@ -95,8 +95,8 @@ next2_linea1.onclick = function(){
 }
 
 next3_linea1.onclick = function(){
-    form3_linea1.style.left = '-1100px'
-    form4_linea1.style.left = '0px'
+    form3_linea1.style.display = 'none';
+    form4_linea1.style.display = 'flex';
     progress1.style.width = '71.27%';
     step3_form1.style.background = '#F130D5';
     step4_form1.style.border = '1px solid #F130D5';
@@ -112,8 +112,8 @@ next3_linea1.onclick = function(){
 }
 
 next4_linea1.onclick = function(){
-    form4_linea1.style.left = '-1100px';
-    form5_linea1.style.left = '0px';
+    form4_linea1.style.display = 'none';
+    form5_linea1.style.display = 'flex';
     progress1.style.width = '91.34%';
     step4_form1.style.background = '#F130D5';
     step5_form1.style.border = '1px solid #F130D5';
@@ -128,8 +128,8 @@ next4_linea1.onclick = function(){
 /* backs de la linea 1 */
 
 back1_linea1.onclick = function(){
-    form1.style.left = '0px'
-    form2_linea1.style.left = '1100px'
+    form1.style.display = 'flex';
+    form2_linea1.style.display = 'none';
     progress1.style.width = '9.13%';
     step1_form1.style.background = '#FFF';
     step2_form1.style.border = '1px solid #FFF';
@@ -141,8 +141,8 @@ back1_linea1.onclick = function(){
 }
 
 back2_linea1.onclick = function(){
-    form2_linea1.style.left = '0px'
-    form3_linea1.style.left = '1100px'
+    form2_linea1.style.display = 'flex';
+    form3_linea1.style.display = 'none';
     progress1.style.width = '29.1%';
     step2_form1.style.background = '#FFF';
     step3_form1.style.border = '1px solid #FFF';
@@ -156,8 +156,8 @@ back2_linea1.onclick = function(){
 }
 
 back3_linea1.onclick = function(){
-    form3_linea1.style.left = '0px'
-    form4_linea1.style.left = '1100px'
+    form3_linea1.style.display = 'flex';
+    form4_linea1.style.display = 'none';
     progress1.style.width = '50%';
     step3_form1.style.background = '#FFF';
     step4_form1.style.border = '1px solid #FFF';
@@ -173,8 +173,8 @@ back3_linea1.onclick = function(){
 }
 
 back4_linea1.onclick = function(){
-    form4_linea1.style.left = '0px'
-    form5_linea1.style.left = '1100px'
+    form4_linea1.style.display = 'flex';
+    form5_linea1.style.display = 'none';
     progress1.style.width = '71.27%';
     step4_form1.style.background = '#FFF';
     step5_form1.style.border = '1px solid #FFF';
@@ -189,8 +189,8 @@ back4_linea1.onclick = function(){
 /* nexts de la linea 2 */
 
 next2_linea2.onclick = function(){
-    form2_linea2.style.left = '-1100px';
-    form3_linea2.style.left = '0px';
+    form2_linea2.style.display = 'none';
+    form3_linea2.style.display = 'flex';
     progress2.style.width = '36.2%';
     step2_form2.style.background = '#F130D5';
     step3_form2.style.border = '1px solid #F130D5';
@@ -212,8 +212,8 @@ var checkbox_form1 = document.getElementsByName('checkbox_form1');
 var total = document.getElementById('total');
 
 next3_linea2.onclick = function(){
-    form3_linea2.style.left = '-1100px';
-    form4_linea2.style.left = '0px';
+    form3_linea2.style.display = 'none';
+    form4_linea2.style.display = 'flex';
     progress2.style.width = '50.8%';
     step3_form2.style.background = '#F130D5';
     step4_form2.style.border = '1px solid #F130D5';
@@ -233,8 +233,8 @@ next3_linea2.onclick = function(){
 }
 
 next4_linea2.onclick = function(){
-    form4_linea2.style.left = '-1100px';
-    form5_linea2.style.left = '0px';
+    form4_linea2.style.display = 'none';
+    form5_linea2.style.display = 'flex';
     progress2.style.width = '64.3%';
     step4_form2.style.background = '#F130D5';
     step5_form2.style.border = '1px solid #F130D5';
@@ -249,8 +249,8 @@ next4_linea2.onclick = function(){
 }
 
 next5_linea2.onclick = function(){
-    form5_linea2.style.left = '-1100px';
-    form6_linea2.style.left = '0px';
+    form5_linea2.style.display = 'none';
+    form6_linea2.style.display = 'flex';
     progress2.style.width = '78%';
     step5_form2.style.background = '#F130D5';
     step6_form2.style.border = '1px solid #F130D5';
@@ -265,8 +265,8 @@ next5_linea2.onclick = function(){
 }
 
 next6_linea2.onclick = function(){
-    form6_linea2.style.left = '-1100px';
-    form7_linea2.style.left = '0px';
+    form6_linea2.style.display = 'none';
+    form7_linea2.style.display = 'flex';
     progress2.style.width = '91.3%';
     step6_form2.style.background = '#F130D5';
     step7_form2.style.border = '1px solid #F130D5';
@@ -281,8 +281,8 @@ next6_linea2.onclick = function(){
 /* backs de la linea 2 */
 
 back1_linea2.onclick = function(){
-    form1.style.left = '0px';
-    form2_linea2.style.left = '1100px';
+    form1.style.display = 'flex';
+    form2_linea2.style.display = 'none';
     progress2.style.width = '9%';
     step1_form2.style.background = '#FFF';
     step2_form2.style.border = '1px solid #FFF';
@@ -297,8 +297,8 @@ back1_linea2.onclick = function(){
 }
 
 back2_linea2.onclick = function(){
-    form2_linea2.style.left = '0px';
-    form3_linea2.style.left = '1100px';
+    form2_linea2.style.display = 'flex';
+    form3_linea2.style.display = 'none';
     progress2.style.width = '21.35%';
     step2_form2.style.background = '#FFF';
     step3_form2.style.border = '1px solid #FFF';
@@ -316,8 +316,8 @@ back2_linea2.onclick = function(){
 }
 
 back3_linea2.onclick = function(){
-    form3_linea2.style.left = '0px';
-    form4_linea2.style.left = '1100px';
+    form3_linea2.style.display = 'flex';
+    form4_linea2.style.display = 'none';
     progress2.style.width = '36.2%';
     step3_form2.style.background = '#FFF';
     step4_form2.style.border = '1px solid #FFF';
@@ -333,8 +333,8 @@ back3_linea2.onclick = function(){
 }
 
 back4_linea2.onclick = function(){
-    form4_linea2.style.left = '0px';
-    form5_linea2.style.left = '1100px';
+    form4_linea2.style.display = 'flex';
+    form5_linea2.style.display = 'none';
     progress2.style.width = '50.8%';
     step4_form2.style.background = '#FFF';
     step5_form2.style.border = '1px solid #FFF';
@@ -349,8 +349,8 @@ back4_linea2.onclick = function(){
 }
 
 back5_linea2.onclick = function(){
-    form5_linea2.style.left = '0px';
-    form6_linea2.style.left = '1100px';
+    form5_linea2.style.display = 'flex';
+    form6_linea2.style.display = 'none';
     progress2.style.width = '64.3%';
     step5_form2.style.background = '#FFF';
     step6_form2.style.border = '1px solid #FFF';
@@ -365,8 +365,8 @@ back5_linea2.onclick = function(){
 }
 
 back6_linea2.onclick = function(){
-    form6_linea2.style.left = '0px';
-    form7_linea2.style.left = '1100px';
+    form6_linea2.style.display = 'flex';
+    form7_linea2.style.display = 'none';
     progress2.style.width = '78%';
     step6_form2.style.background = '#FFF';
     step7_form2.style.border = '1px solid #FFF';

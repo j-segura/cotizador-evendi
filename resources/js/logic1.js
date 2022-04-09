@@ -16,11 +16,8 @@ var next4_linea2 = document.getElementById('next4-linea2');
 var next5_linea2 = document.getElementById('next5-linea2');
 var next6_linea2 = document.getElementById('next6-linea2');
 
-var progress1 = document.getElementById('progress1');
-var progress2 = document.getElementById('progress2');
-
-var step_img1 = document.getElementById('img-progress1');
-var step_img2 = document.getElementById('img-progress2');
+var barra1 = document.getElementById('barra1');
+var barra2 = document.getElementById('barra2');
 
 var step1_form1 = document.getElementById('step1-form1');
 var step2_form1 = document.getElementById('step2-form1');
@@ -69,18 +66,17 @@ const inversa = (content) =>{
 
 /* linea 1 */
 op1.onclick = function(){
-    progress2.style.display = 'none';
-    progress1.style.display = 'block';
-    step_img1.style.left = '0px';
-    step_img2.style.left = '1100px';
+
+    barra1.style.display = 'block';
+    barra2.style.display = 'none';
     totalGlobal = 0;
     totalGlobal += 1000000;
     total.innerHTML = "$ " + inversa(`${totalGlobal}`);
     next1.style.display = 'block';
 
     next1.onclick = function(){
-        form1.style.left = '-1100px';
-        form2_linea1.style.left = '0px';
+        form1.style.display = 'none';
+        form2_linea1.style.display = 'flex';
         progress1.style.width = '29.1%';
         step1_form1.style.background = '#F130D5';
         step2_form1.style.border = '1px solid #F130D5';
@@ -95,18 +91,16 @@ op1.onclick = function(){
 /* linea 2 */
 op2.onclick = function(){
 
-    progress1.style.display = 'none';
-    progress2.style.display = 'block';
-    step_img2.style.left = '0px';
-    step_img1.style.left = '1100px';
+    barra1.style.display = 'none';
+    barra2.style.display = 'block';
     totalGlobal = 0;
     totalGlobal += 1500000;
     total.innerHTML = "$ " + inversa(`${totalGlobal}`);
     next1.style.display = 'block';
 
     next1.onclick = function(){
-        form1.style.left = '-1100px';
-        form2_linea2.style.left = '0px';
+        form1.style.display = 'none';
+        form2_linea2.style.display = 'flex';
         progress2.style.width = '21.35%';
         step1_form2.style.background = '#F130D5';
         step2_form2.style.border = '1px solid #F130D5';

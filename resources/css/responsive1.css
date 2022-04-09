@@ -22,6 +22,7 @@
 @media screen and (min-width: 675px) and (max-width: 855px) {
     .container {
         width: 95%;
+        padding: 7% 0;
     }
 
     header h1::before{
@@ -37,6 +38,7 @@
 @media screen and (min-width: 480px) and (max-width: 675px) {
     .container {
         width: 95%;
+        padding: 8% 0;
     }
 
     /* .btn-box {
@@ -60,6 +62,7 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
     .container {
         width: 95%;
+        padding: 8% 0;
     }
 
     .container header{
@@ -95,12 +98,10 @@
 
     .step-row{
         width: 170%;
-        top: 237px;
     }
 
     .container .step-img{
         width: 170%;
-        top: 205px;
     }
 
     /* form */
@@ -114,10 +115,12 @@
     .container {
         width: 95%;
         height: 750px;
+        padding: 10% 0;
     }
 
     .container header{
         top: 30px;
+        margin-bottom: 0;
     }
 
     header h1 {
@@ -138,10 +141,6 @@
         line-height: 30px;
     }
 
-/*     .btn-box {
-        padding: 0 8px;
-    } */
-
     .circulo {
         width: 60px;
         height: 60px;
@@ -149,12 +148,10 @@
 
     .step-row{
         width: 170%;
-        top: 210px;
     }
 
     .container .step-img{
         width: 170%;
-        top: 178px;
     }
 
     /* form */

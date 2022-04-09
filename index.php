@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./resources/css/main1.css">
-    <link rel="stylesheet" href="./resources/css/responsive.css">
+    <link rel="stylesheet" href="./resources/css/responsive1.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
@@ -18,6 +18,111 @@
             <h2>La inversión aproximada para el desarrollo de tu sitio web es:</h2>
             <h4 id="total">$ _________</h4>
         </header>
+
+        <!-- linea indicadora de la completacion del formulario -->
+        <div class="barra" id="barra1">
+             <div class="step-row">
+                 <div id="progress1"></div>
+             </div>
+             <div class="step-img" id="img-progress1">
+                <div class="circulo" id="step1-form1">
+                    <svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="icon1-form1" d="M5.16667 20.4444H3.77778C3.04106 20.4444 2.33453 20.1518 1.81359 19.6308C1.29266 19.1099 1 18.4034 1 17.6667V3.77778C1 3.04106 1.29266 2.33453 1.81359 1.81359C2.33453 1.29266 3.04106 1 3.77778 1H26C26.7367 1 27.4432 1.29266 27.9642 1.81359C28.4851 2.33453 28.7778 3.04106 28.7778 3.77778V17.6667C28.7778 18.4034 28.4851 19.1099 27.9642 19.6308C27.4432 20.1518 26.7367 20.4444 26 20.4444H24.6111" stroke="#F130D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon1-form1" d="M14.8889 17.6667L21.8333 26H7.94446L14.8889 17.6667Z" stroke="#F130D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>    
+
+                </div>
+                <div class="circulo" id="step2-form1">
+                    <svg width="25" height="27" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="icon2-form1" d="M17.25 12.25V7.25M23.5 1H1V21H7.25V26L12.25 21H18.5L23.5 16V1ZM11 12.25V7.25V12.25Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg> 
+
+                </div>
+                <div class="circulo" id="step3-form1">
+                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="icon3-form1" d="M13.5 1L1 7.25L13.5 13.5L26 7.25L13.5 1Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon3-form1" d="M1 19.75L13.5 26L26 19.75" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon3-form1" d="M1 13.5L13.5 19.75L26 13.5" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                </div>
+                <div class="circulo" id="step4-form1">
+                    <svg width="25" height="27" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="icon4-form1" d="M4.75 1L1 6V23.5C1 24.163 1.26339 24.7989 1.73223 25.2678C2.20107 25.7366 2.83696 26 3.5 26H21C21.663 26 22.2989 25.7366 22.7678 25.2678C23.2366 24.7989 23.5 24.163 23.5 23.5V6L19.75 1H4.75Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon4-form1" d="M1 6H23.5" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon4-form1" d="M17.25 11C17.25 12.3261 16.7232 13.5979 15.7855 14.5355C14.8479 15.4732 13.5761 16 12.25 16C10.9239 16 9.65215 15.4732 8.71447 14.5355C7.77678 13.5979 7.25 12.3261 7.25 11" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                </div>
+                <div class="circulo" id="step5-form1">
+                    <svg width="18" height="27" viewBox="0 0 18 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="icon5-form1" d="M8.95455 16.9091C13.3477 16.9091 16.9091 13.3477 16.9091 8.95455C16.9091 4.56137 13.3477 1 8.95455 1C4.56137 1 1 4.56137 1 8.95455C1 13.3477 4.56137 16.9091 8.95455 16.9091Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon5-form1" d="M4.64774 15.6477L3.27274 26L8.95455 22.5909L14.6364 26L13.2614 15.6364" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                </div>
+            </div>
+        </div>
+
+        <div class="barra" id="barra2">
+            <div class="step-row">
+                <div id="progress2"></div>
+            </div>
+            <div class="step-img"  id="img-progress2">
+                <div class="circulo" id="step1-form2">
+                    <svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="icon1-form2" d="M5.16667 20.4444H3.77778C3.04106 20.4444 2.33453 20.1518 1.81359 19.6308C1.29266 19.1099 1 18.4034 1 17.6667V3.77778C1 3.04106 1.29266 2.33453 1.81359 1.81359C2.33453 1.29266 3.04106 1 3.77778 1H26C26.7367 1 27.4432 1.29266 27.9642 1.81359C28.4851 2.33453 28.7778 3.04106 28.7778 3.77778V17.6667C28.7778 18.4034 28.4851 19.1099 27.9642 19.6308C27.4432 20.1518 26.7367 20.4444 26 20.4444H24.6111" stroke="#F130D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon1-form2" class="icon1" d="M14.8889 17.6667L21.8333 26H7.94446L14.8889 17.6667Z" stroke="#F130D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>  
+                </div>
+                <div class="circulo" id="step2-form2">
+                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="icon2-form2" d="M23.5 13.5V26H3.5V13.5" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon2-form2" d="M26 7.25H1V13.5H26V7.25Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon2-form2" d="M13.5 26V7.25" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon2-form2" d="M13.5 7.25H7.875C7.0462 7.25 6.25134 6.92076 5.66529 6.33471C5.07924 5.74866 4.75 4.9538 4.75 4.125C4.75 3.2962 5.07924 2.50134 5.66529 1.91529C6.25134 1.32924 7.0462 1 7.875 1C12.25 1 13.5 7.25 13.5 7.25Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon2-form2" d="M13.5 7.25H19.125C19.9538 7.25 20.7487 6.92076 21.3347 6.33471C21.9208 5.74866 22.25 4.9538 22.25 4.125C22.25 3.2962 21.9208 2.50134 21.3347 1.91529C20.7487 1.32924 19.9538 1 19.125 1C14.75 1 13.5 7.25 13.5 7.25Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>    
+                </div>
+                <div class="circulo" id="step3-form2">
+                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="icon3-form2" d="M13.5 1L1 7.25L13.5 13.5L26 7.25L13.5 1Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon3-form2" d="M1 19.75L13.5 26L26 19.75" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon3-form2" d="M1 13.5L13.5 19.75L26 13.5" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                        
+                </div>
+                <div class="circulo" id="step4-form2">
+                    <svg width="29" height="27" viewBox="0 0 29 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="icon4-form2" d="M10.5238 26C11.1813 26 11.7143 25.467 11.7143 24.8095C11.7143 24.152 11.1813 23.619 10.5238 23.619C9.86633 23.619 9.33333 24.152 9.33333 24.8095C9.33333 25.467 9.86633 26 10.5238 26Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon4-form2" d="M23.619 26C24.2765 26 24.8095 25.467 24.8095 24.8095C24.8095 24.152 24.2765 23.619 23.619 23.619C22.9616 23.619 22.4286 24.152 22.4286 24.8095C22.4286 25.467 22.9616 26 23.619 26Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon4-form2" d="M1 1H5.7619L8.95238 16.9405C9.06124 17.4886 9.35941 17.9809 9.7947 18.3313C10.23 18.6817 10.7746 18.8678 11.3333 18.8571H22.9048C23.4635 18.8678 24.0081 18.6817 24.4434 18.3313C24.8787 17.9809 25.1769 17.4886 25.2857 16.9405L27.1905 6.95238H6.95238" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                        
+                </div>
+                <div class="circulo" id="step5-form2">
+                    <svg width="33" height="27" viewBox="0 0 33 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="icon5-form2" d="M21.8333 1H1V19.0556H21.8333V1Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon5-form2" d="M21.8333 7.94444H27.3889L31.5556 12.1111V19.0556H21.8333V7.94444Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon5-form2" d="M7.24999 26C9.16765 26 10.7222 24.4454 10.7222 22.5278C10.7222 20.6101 9.16765 19.0556 7.24999 19.0556C5.33234 19.0556 3.77777 20.6101 3.77777 22.5278C3.77777 24.4454 5.33234 26 7.24999 26Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon5-form2" d="M25.3056 26C27.2232 26 28.7778 24.4454 28.7778 22.5278C28.7778 20.6101 27.2232 19.0556 25.3056 19.0556C23.3879 19.0556 21.8333 20.6101 21.8333 22.5278C21.8333 24.4454 23.3879 26 25.3056 26Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                        
+                </div>
+                <div class="circulo" id="step6-form2">
+                    <svg width="25" height="27" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="icon6-form2" d="M4.75 1L1 6V23.5C1 24.163 1.26339 24.7989 1.73223 25.2678C2.20107 25.7366 2.83696 26 3.5 26H21C21.663 26 22.2989 25.7366 22.7678 25.2678C23.2366 24.7989 23.5 24.163 23.5 23.5V6L19.75 1H4.75Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon6-form2" d="M1 6H23.5" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon6-form2" d="M17.25 11C17.25 12.3261 16.7232 13.5979 15.7855 14.5355C14.8479 15.4732 13.5761 16 12.25 16C10.9239 16 9.65215 15.4732 8.71447 14.5355C7.77678 13.5979 7.25 12.3261 7.25 11" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                        
+                </div>
+                <div class="circulo" id="step7-form2">
+                    <svg width="18" height="27" viewBox="0 0 18 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="icon7-form2" d="M8.95455 16.9091C13.3477 16.9091 16.9091 13.3477 16.9091 8.95455C16.9091 4.56137 13.3477 1 8.95455 1C4.56137 1 1 4.56137 1 8.95455C1 13.3477 4.56137 16.9091 8.95455 16.9091Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="icon7-form2" d="M4.64774 15.6477L3.27274 26L8.95455 22.5909L14.6364 26L13.2614 15.6364" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                </div>
+            </div>
+        </div>
+
 
         <!-- primera secsion del formulario -->
         <form action="" id="form1" >
@@ -801,107 +906,6 @@
             </div>
         </form>
         
-
-        <!-- linea indicadora de la completacion del formulario -->
-        <div class="step-row">
-            <div id="progress1"></div>
-        
-            <div id="progress2"></div>
-        </div>
-
-        <div class="step-img" id="img-progress1">
-                <div class="circulo" id="step1-form1">
-                    <svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="icon1-form1" d="M5.16667 20.4444H3.77778C3.04106 20.4444 2.33453 20.1518 1.81359 19.6308C1.29266 19.1099 1 18.4034 1 17.6667V3.77778C1 3.04106 1.29266 2.33453 1.81359 1.81359C2.33453 1.29266 3.04106 1 3.77778 1H26C26.7367 1 27.4432 1.29266 27.9642 1.81359C28.4851 2.33453 28.7778 3.04106 28.7778 3.77778V17.6667C28.7778 18.4034 28.4851 19.1099 27.9642 19.6308C27.4432 20.1518 26.7367 20.4444 26 20.4444H24.6111" stroke="#F130D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon1-form1" d="M14.8889 17.6667L21.8333 26H7.94446L14.8889 17.6667Z" stroke="#F130D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>    
-
-                </div>
-                <div class="circulo" id="step2-form1">
-                    <svg width="25" height="27" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="icon2-form1" d="M17.25 12.25V7.25M23.5 1H1V21H7.25V26L12.25 21H18.5L23.5 16V1ZM11 12.25V7.25V12.25Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg> 
-
-                </div>
-                <div class="circulo" id="step3-form1">
-                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="icon3-form1" d="M13.5 1L1 7.25L13.5 13.5L26 7.25L13.5 1Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon3-form1" d="M1 19.75L13.5 26L26 19.75" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon3-form1" d="M1 13.5L13.5 19.75L26 13.5" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                </div>
-                <div class="circulo" id="step4-form1">
-                    <svg width="25" height="27" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="icon4-form1" d="M4.75 1L1 6V23.5C1 24.163 1.26339 24.7989 1.73223 25.2678C2.20107 25.7366 2.83696 26 3.5 26H21C21.663 26 22.2989 25.7366 22.7678 25.2678C23.2366 24.7989 23.5 24.163 23.5 23.5V6L19.75 1H4.75Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon4-form1" d="M1 6H23.5" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon4-form1" d="M17.25 11C17.25 12.3261 16.7232 13.5979 15.7855 14.5355C14.8479 15.4732 13.5761 16 12.25 16C10.9239 16 9.65215 15.4732 8.71447 14.5355C7.77678 13.5979 7.25 12.3261 7.25 11" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                </div>
-                <div class="circulo" id="step5-form1">
-                    <svg width="18" height="27" viewBox="0 0 18 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="icon5-form1" d="M8.95455 16.9091C13.3477 16.9091 16.9091 13.3477 16.9091 8.95455C16.9091 4.56137 13.3477 1 8.95455 1C4.56137 1 1 4.56137 1 8.95455C1 13.3477 4.56137 16.9091 8.95455 16.9091Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon5-form1" d="M4.64774 15.6477L3.27274 26L8.95455 22.5909L14.6364 26L13.2614 15.6364" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                </div>
-        </div>
-
-
-        <div class="step-img"  id="img-progress2">
-                <div class="circulo" id="step1-form2">
-                    <svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="icon1-form2" d="M5.16667 20.4444H3.77778C3.04106 20.4444 2.33453 20.1518 1.81359 19.6308C1.29266 19.1099 1 18.4034 1 17.6667V3.77778C1 3.04106 1.29266 2.33453 1.81359 1.81359C2.33453 1.29266 3.04106 1 3.77778 1H26C26.7367 1 27.4432 1.29266 27.9642 1.81359C28.4851 2.33453 28.7778 3.04106 28.7778 3.77778V17.6667C28.7778 18.4034 28.4851 19.1099 27.9642 19.6308C27.4432 20.1518 26.7367 20.4444 26 20.4444H24.6111" stroke="#F130D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon1-form2" class="icon1" d="M14.8889 17.6667L21.8333 26H7.94446L14.8889 17.6667Z" stroke="#F130D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>  
-                </div>
-                <div class="circulo" id="step2-form2">
-                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="icon2-form2" d="M23.5 13.5V26H3.5V13.5" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon2-form2" d="M26 7.25H1V13.5H26V7.25Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon2-form2" d="M13.5 26V7.25" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon2-form2" d="M13.5 7.25H7.875C7.0462 7.25 6.25134 6.92076 5.66529 6.33471C5.07924 5.74866 4.75 4.9538 4.75 4.125C4.75 3.2962 5.07924 2.50134 5.66529 1.91529C6.25134 1.32924 7.0462 1 7.875 1C12.25 1 13.5 7.25 13.5 7.25Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon2-form2" d="M13.5 7.25H19.125C19.9538 7.25 20.7487 6.92076 21.3347 6.33471C21.9208 5.74866 22.25 4.9538 22.25 4.125C22.25 3.2962 21.9208 2.50134 21.3347 1.91529C20.7487 1.32924 19.9538 1 19.125 1C14.75 1 13.5 7.25 13.5 7.25Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>    
-                </div>
-                <div class="circulo" id="step3-form2">
-                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="icon3-form2" d="M13.5 1L1 7.25L13.5 13.5L26 7.25L13.5 1Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon3-form2" d="M1 19.75L13.5 26L26 19.75" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon3-form2" d="M1 13.5L13.5 19.75L26 13.5" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>                        
-                </div>
-                <div class="circulo" id="step4-form2">
-                    <svg width="29" height="27" viewBox="0 0 29 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="icon4-form2" d="M10.5238 26C11.1813 26 11.7143 25.467 11.7143 24.8095C11.7143 24.152 11.1813 23.619 10.5238 23.619C9.86633 23.619 9.33333 24.152 9.33333 24.8095C9.33333 25.467 9.86633 26 10.5238 26Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon4-form2" d="M23.619 26C24.2765 26 24.8095 25.467 24.8095 24.8095C24.8095 24.152 24.2765 23.619 23.619 23.619C22.9616 23.619 22.4286 24.152 22.4286 24.8095C22.4286 25.467 22.9616 26 23.619 26Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon4-form2" d="M1 1H5.7619L8.95238 16.9405C9.06124 17.4886 9.35941 17.9809 9.7947 18.3313C10.23 18.6817 10.7746 18.8678 11.3333 18.8571H22.9048C23.4635 18.8678 24.0081 18.6817 24.4434 18.3313C24.8787 17.9809 25.1769 17.4886 25.2857 16.9405L27.1905 6.95238H6.95238" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>                        
-                </div>
-                <div class="circulo" id="step5-form2">
-                    <svg width="33" height="27" viewBox="0 0 33 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="icon5-form2" d="M21.8333 1H1V19.0556H21.8333V1Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon5-form2" d="M21.8333 7.94444H27.3889L31.5556 12.1111V19.0556H21.8333V7.94444Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon5-form2" d="M7.24999 26C9.16765 26 10.7222 24.4454 10.7222 22.5278C10.7222 20.6101 9.16765 19.0556 7.24999 19.0556C5.33234 19.0556 3.77777 20.6101 3.77777 22.5278C3.77777 24.4454 5.33234 26 7.24999 26Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon5-form2" d="M25.3056 26C27.2232 26 28.7778 24.4454 28.7778 22.5278C28.7778 20.6101 27.2232 19.0556 25.3056 19.0556C23.3879 19.0556 21.8333 20.6101 21.8333 22.5278C21.8333 24.4454 23.3879 26 25.3056 26Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>                        
-                </div>
-                <div class="circulo" id="step6-form2">
-                    <svg width="25" height="27" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="icon6-form2" d="M4.75 1L1 6V23.5C1 24.163 1.26339 24.7989 1.73223 25.2678C2.20107 25.7366 2.83696 26 3.5 26H21C21.663 26 22.2989 25.7366 22.7678 25.2678C23.2366 24.7989 23.5 24.163 23.5 23.5V6L19.75 1H4.75Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon6-form2" d="M1 6H23.5" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon6-form2" d="M17.25 11C17.25 12.3261 16.7232 13.5979 15.7855 14.5355C14.8479 15.4732 13.5761 16 12.25 16C10.9239 16 9.65215 15.4732 8.71447 14.5355C7.77678 13.5979 7.25 12.3261 7.25 11" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>                        
-                </div>
-                <div class="circulo" id="step7-form2">
-                    <svg width="18" height="27" viewBox="0 0 18 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="icon7-form2" d="M8.95455 16.9091C13.3477 16.9091 16.9091 13.3477 16.9091 8.95455C16.9091 4.56137 13.3477 1 8.95455 1C4.56137 1 1 4.56137 1 8.95455C1 13.3477 4.56137 16.9091 8.95455 16.9091Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="icon7-form2" d="M4.64774 15.6477L3.27274 26L8.95455 22.5909L14.6364 26L13.2614 15.6364" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                </div>
-        </div>
     
     </div>
     
@@ -946,7 +950,7 @@
     <?php
     include("enviar.php");
     ?>
-    <script src="./resources/js/main.js"></script>
-    <script src="./resources/js/logic.js"></script>
+    <script src="./resources/js/main1.js"></script>
+    <script src="./resources/js/logic1.js"></script>
 </body>
 </html>
