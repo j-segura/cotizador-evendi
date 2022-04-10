@@ -32,6 +32,10 @@ var progress2_part2 = document.getElementById('progress2_part2');
 
 var step1_form1 = document.getElementById('step1-form1');
 var step2_form1 = document.getElementById('step2-form1');
+var step1_form1_part1 = document.getElementById('step1-form1_part1');
+var step1_form2_part1 = document.getElementById('step1-form2_part1');
+var step2_form1_part1 = document.getElementById('step2-form1_part1');
+var step2_form2_part1 = document.getElementById('step2-form2_part1');
 
 var step1_form2 = document.getElementById('step1-form2');
 var step2_form2 = document.getElementById('step2-form2');
@@ -155,11 +159,17 @@ op1.onclick = function(){
         progress1_part1.style.width = '50%';
         step1_form1.style.background = '#F130D5';
         step2_form1.style.border = '1px solid #F130D5';
+        step1_form1_part1.style.background = '#F130D5';
+        step2_form1_part1.style.border = '1px solid #F130D5';
+        
 
         //codigo que funciona pero dudo si se puede mejorar
         icon1_form1[0].style.stroke = "#fff";
         icon1_form1[1].style.stroke = "#fff";
+        icon1_form1[2].style.stroke = "#fff";
+        icon1_form1[3].style.stroke = "#fff";
         icon2_form1[0].style.stroke = "#F130D5";
+        icon2_form1[1].style.stroke = "#F130D5";
     }
 } 
 
@@ -192,14 +202,24 @@ op2.onclick = function(){
         progress2_part1.style.width = '40%';
         step1_form2.style.background = '#F130D5';
         step2_form2.style.border = '1px solid #F130D5';
+        step1_form2_part1.style.background = '#F130D5';
+        step2_form2_part1.style.border = '1px solid #F130D5';
 
         icon1_form2[0].style.stroke = "#fff";
         icon1_form2[1].style.stroke = "#fff";
+        icon1_form2[2].style.stroke = "#fff";
+        icon1_form2[3].style.stroke = "#fff";
+        
         icon2_form2[0].style.stroke = "#F130D5";
         icon2_form2[1].style.stroke = "#F130D5";
         icon2_form2[2].style.stroke = "#F130D5";
         icon2_form2[3].style.stroke = "#F130D5";
         icon2_form2[4].style.stroke = "#F130D5";
+        icon2_form2[5].style.stroke = "#F130D5";
+        icon2_form2[6].style.stroke = "#F130D5";
+        icon2_form2[7].style.stroke = "#F130D5";
+        icon2_form2[8].style.stroke = "#F130D5";
+        icon2_form2[9].style.stroke = "#F130D5";
     }
 }
 

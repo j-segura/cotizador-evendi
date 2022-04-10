@@ -363,7 +363,27 @@ button {
   color: #f130d5;
 }
 
+#step1-form1_part1{
+  border: 1px solid #f130d5;
+  color: #f130d5;
+}
+
+#step3-form1_part2{
+  border: 1px solid #f130d5;
+  color: #f130d5;
+}
+
+#step4-form2_part2{
+  border: 1px solid #f130d5;
+  color: #f130d5;
+}
+
 #step1-form2 {
+  border: 1px solid #f130d5;
+  color: #f130d5;
+}
+
+#step1-form2_part1{
   border: 1px solid #f130d5;
   color: #f130d5;
 }
