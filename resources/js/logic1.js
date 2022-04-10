@@ -18,6 +18,17 @@ var next6_linea2 = document.getElementById('next6-linea2');
 
 var barra1 = document.getElementById('barra1');
 var barra2 = document.getElementById('barra2');
+var barra1_responsive_part1 = document.getElementById('barra1_responsive_part1');
+var barra1_responsive_part2 = document.getElementById('barra1_responsive_part2');
+var barra2_responsive_part1 = document.getElementById('barra2_responsive_part1');
+var barra2_responsive_part2 = document.getElementById('barra2_responsive_part2');
+
+var progress1 = document.getElementById('progress1');
+var progress2 = document.getElementById('progress2');
+var progress1_part1 = document.getElementById('progress1_part1');
+var progress1_part2 = document.getElementById('progress1_part2');
+var progress2_part1 = document.getElementById('progress2_part1');
+var progress2_part2 = document.getElementById('progress2_part2');
 
 var step1_form1 = document.getElementById('step1-form1');
 var step2_form1 = document.getElementById('step2-form1');
@@ -44,6 +55,8 @@ var total = document.getElementById('total');
 
 var totalGlobal = 0;//el valor acumulado
 
+
+
 //funcion que le coloca los puntos al precio
 const inversa = (content) =>{
     let inversContent = [];
@@ -64,11 +77,72 @@ const inversa = (content) =>{
     return price.join('');
 }
 
+let ancho;
+let alto;
+
+function obtenerTamaño(){
+    ancho = document.documentElement.clientWidth;
+    alto = document.documentElement.clientHeight;
+    let contenido = `Ancho: ${ancho} - Alto: ${alto}`;
+    console.log(contenido);
+
+    if(ancho <= 675){
+        barra1_responsive_part1.style.display = 'block';
+        barra1.style.display = 'none';
+    }else{
+        barra1_responsive_part1.style.display = 'none';
+        barra1.style.display = 'block';
+    }
+
+    if($('#op1').prop('checked')){
+        if(ancho <= 675){
+            barra1_responsive_part1.style.display = 'block';
+            barra2_responsive_part1.style.display = 'none';
+            barra1.style.display = 'none';
+            barra2.style.display = 'none';
+        }else{
+            barra1_responsive_part1.style.display = 'none';
+            barra2_responsive_part1.style.display = 'none';
+            barra1.style.display = 'block';
+            barra2.style.display = 'none';
+        }
+    }
+
+    if($('#op2').prop('checked')){
+        if(ancho <= 675){
+            barra1_responsive_part1.style.display = 'none';
+            barra2_responsive_part1.style.display = 'block';
+            barra1.style.display = 'none';
+            barra2.style.display = 'none';
+        }else{
+            barra1_responsive_part1.style.display = 'none';
+            barra2_responsive_part1.style.display = 'none';
+            barra1.style.display = 'none';
+            barra2.style.display = 'block';
+        }
+    }
+
+}
+
+
+
 /* linea 1 */
 op1.onclick = function(){
 
-    barra1.style.display = 'block';
-    barra2.style.display = 'none';
+    if($('#op1').prop('checked')){
+        if(ancho <= 675){
+            barra1_responsive_part1.style.display = 'block';
+            barra2_responsive_part1.style.display = 'none';
+            barra1.style.display = 'none';
+            barra2.style.display = 'none';
+        }else{
+            barra1_responsive_part1.style.display = 'none';
+            barra2_responsive_part1.style.display = 'none';
+            barra1.style.display = 'block';
+            barra2.style.display = 'none';
+        }
+    }
+
     totalGlobal = 0;
     totalGlobal += 1000000;
     total.innerHTML = "$ " + inversa(`${totalGlobal}`);
@@ -78,6 +152,7 @@ op1.onclick = function(){
         form1.style.display = 'none';
         form2_linea1.style.display = 'flex';
         progress1.style.width = '29.1%';
+        progress1_part1.style.width = '50%';
         step1_form1.style.background = '#F130D5';
         step2_form1.style.border = '1px solid #F130D5';
 
@@ -91,8 +166,20 @@ op1.onclick = function(){
 /* linea 2 */
 op2.onclick = function(){
 
-    barra1.style.display = 'none';
-    barra2.style.display = 'block';
+    if($('#op2').prop('checked')){
+        if(ancho <= 675){
+            barra1_responsive_part1.style.display = 'none';
+            barra2_responsive_part1.style.display = 'block';
+            barra1.style.display = 'none';
+            barra2.style.display = 'none';
+        }else{
+            barra1_responsive_part1.style.display = 'none';
+            barra2_responsive_part1.style.display = 'none';
+            barra1.style.display = 'none';
+            barra2.style.display = 'block';
+        }
+    }
+
     totalGlobal = 0;
     totalGlobal += 1500000;
     total.innerHTML = "$ " + inversa(`${totalGlobal}`);
@@ -102,6 +189,7 @@ op2.onclick = function(){
         form1.style.display = 'none';
         form2_linea2.style.display = 'flex';
         progress2.style.width = '21.35%';
+        progress2_part1.style.width = '40%';
         step1_form2.style.background = '#F130D5';
         step2_form2.style.border = '1px solid #F130D5';
 

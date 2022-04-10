@@ -1,3 +1,8 @@
+var barra1_responsive_part1 = document.getElementById('barra1_responsive_part1');
+var barra1_responsive_part2 = document.getElementById('barra1_responsive_part2');
+var barra2_responsive_part1 = document.getElementById('barra2_responsive_part1');
+var barra2_responsive_part2 = document.getElementById('barra2_responsive_part2');
+
 var form1 = document.getElementById('form1');
 
 var form2_linea1 = document.getElementById('form2-linea1');
@@ -82,6 +87,7 @@ next2_linea1.onclick = function(){
     form2_linea1.style.display = 'none';
     form3_linea1.style.display = 'flex';
     progress1.style.width = '50%';
+    progress1_part1.style.width = '80%';
     step2_form1.style.background = '#F130D5';
     step3_form1.style.border = '1px solid #F130D5';
 

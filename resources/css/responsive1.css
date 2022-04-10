@@ -14,9 +14,6 @@
 
     }
 
-    .container .step-img{
-        width: 100%;
-    }
 }
 
 @media screen and (min-width: 675px) and (max-width: 855px) {
@@ -29,28 +26,12 @@
         content: '¿Interesado? ';
 
     }
-
-    .container .step-img{
-        width: 100%;
-    }
 }
 
 @media screen and (min-width: 480px) and (max-width: 675px) {
     .container {
         width: 95%;
         padding: 8% 0;
-    }
-
-    /* .btn-box {
-        padding: 0 30px;
-    } */
-    
-    .step-row{
-        width: 165%;
-    }
-
-    .container .step-img{
-        width: 165%;
     }
 
     .circulo {
@@ -87,24 +68,10 @@
         line-height: 40px;
     }
 
-    /* .btn-box {
-        padding: 0 20px;
-    } */
-
     .circulo {
         width: 60px;
         height: 60px;
     }
-
-    .step-row{
-        width: 170%;
-    }
-
-    .container .step-img{
-        width: 170%;
-    }
-
-    /* form */
 
     h3 {
         font-size: 22px;
@@ -144,14 +111,6 @@
     .circulo {
         width: 60px;
         height: 60px;
-    }
-
-    .step-row{
-        width: 170%;
-    }
-
-    .container .step-img{
-        width: 170%;
     }
 
     /* form */
