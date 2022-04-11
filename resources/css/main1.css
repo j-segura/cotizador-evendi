@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: rgba(93, 230, 189, 0.651);
+  background-color: rgba(255, 30, 0, 0.165);
   padding: 2px;
 }
 
@@ -99,14 +99,14 @@ h3 {
   line-height: 35px;
   text-align: center;
   color: #4b4b4b;
+  padding-bottom: 25px;
 }
 
 .container form {
   width: 100%;
-  height: 396px;
-  /* position: absolute;
-  left: 0px;
-  bottom: 45px; */
+  /* height: 396px; */
+  height: auto;
+  min-height: 396px;
   transition: 0.5s;
   padding: 0 3.8%;
   display: flex;
@@ -141,6 +141,7 @@ h3 {
   line-height: 35px;
   text-align: center;
   color: #6c1c81;
+  padding-bottom: 25px;
 }
 
 .resumen {
@@ -153,10 +154,17 @@ h3 {
 
   width: 100%;
   padding: 0 6%;
-  height: 177px;
+  height: auto;
+  min-height: 177px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-bottom: 71px;
+
+}
+
+.resumen p {
+  margin-bottom: 19px;
 }
 
 /* formularios de la linea 2 */
@@ -245,7 +253,7 @@ button {
 .barra{
   width: 100%;
   height: 73px;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
 }
 
 #barra2{
@@ -396,14 +404,13 @@ form input[type="checkbox"] {
 /* opciones de la pregunta 1 */
 
 .quest1 {
-  width: 488px;
+  width: 100%;
   height: 226px;
-  /* position: absolute;
-  top: 69px;
-  left: 231px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
 }
 
 .circulito {
@@ -424,14 +431,20 @@ form input[type="checkbox"] {
 /* opcion numero 1 */
 
 .op1 {
-  width: 488px;
-  height: 100px;
-  background: #f9f9f9;
+  width: 100%;
+  max-width: 488px;
+  max-height: 90px;
+  min-height: 100px;
+  height: auto;
+  background: #F9F9F9;
   display: flex;
+  justify-content: left;
+  align-items: center;
   position: relative;
   top: 0px;
   border-radius: 5px;
   cursor: pointer;
+  padding: 0 15px 0 36px;
 }
 
 .op1 h4 {
@@ -441,29 +454,31 @@ form input[type="checkbox"] {
   font-size: 19px;
   line-height: 24px;
   color: #585858;
-  position: absolute;
-  left: 132px;
-  top: 26px;
-  height: 48px;
+  max-width: 278px;
+  margin-left: 6.45%;
 }
 
 .op1 .svg {
-  position: absolute;
-  left: 36px;
-  top: 18px;
+
 }
 
 /* opcion numero 2 */
 
 .op2 {
-  width: 488px;
-  height: 100px;
-  background: #f9f9f9;
+  width: 100%;
+  max-width: 488px;
+  max-height: 90px;
+  min-height: 100px;
+  background: #F9F9F9;
   display: flex;
+  display: flex;
+  justify-content: left;
+  align-items: center;
   position: relative;
   top: 0px;
   border-radius: 5px;
   cursor: pointer;
+  padding: 0 15px 0 36px;
 }
 
 .op2 h4 {
@@ -473,16 +488,12 @@ form input[type="checkbox"] {
   font-size: 19px;
   line-height: 24px;
   color: #585858;
-  position: absolute;
-  left: 132px;
-  top: 34px;
   height: 25px;
+  margin-left: 6.45%;
 }
 
 .op2 .svg {
-  position: absolute;
-  left: 43px;
-  top: 16px;
+
 }
 
 input[type="radio"]:checked + label,
@@ -515,10 +526,13 @@ input[type="radio"]:checked + label .circulito {
 /* opciones de la pregunta 2 */
 
 .quest2-form1 {
-  width: 628px;
-  height: 186px;
+  width: 100%;
+  max-width: 628px;
+  height: auto;
+  min-height: 186px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .circulito2-form1 {
@@ -556,6 +570,10 @@ input[type="radio"]:checked + label .circulito2-form1 {
   top: 0px;
   border-radius: 5px;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .op1-p2 h4 {
@@ -565,17 +583,13 @@ input[type="radio"]:checked + label .circulito2-form1 {
   font-size: 19px;
   line-height: 24px;
   color: #585858;
-  position: absolute;
-  left: 51px;
-  top: 106px;
   height: 48px;
   text-align: center;
+  margin-top: 12px;
 }
 
 .op1-p2 .svg {
-  position: absolute;
-  left: 63px;
-  top: 35px;
+
 }
 
 /* opcion 2 */
@@ -588,6 +602,10 @@ input[type="radio"]:checked + label .circulito2-form1 {
   top: 0px;
   border-radius: 5px;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .op2-p2 h4 {
@@ -597,17 +615,13 @@ input[type="radio"]:checked + label .circulito2-form1 {
   font-size: 19px;
   line-height: 24px;
   color: #585858;
-  position: absolute;
-  left: 41px;
-  top: 106px;
   height: 48px;
   text-align: center;
+  margin-top: 12px;
 }
 
 .op2-p2 .svg {
-  position: absolute;
-  left: 55px;
-  top: 35px;
+
 }
 
 /* opcion 3 */
@@ -620,6 +634,10 @@ input[type="radio"]:checked + label .circulito2-form1 {
   top: 0px;
   border-radius: 5px;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .op3-p2 h4 {
@@ -629,28 +647,32 @@ input[type="radio"]:checked + label .circulito2-form1 {
   font-size: 19px;
   line-height: 24px;
   color: #585858;
-  position: absolute;
-  left: 41px;
-  top: 106px;
   height: 48px;
   text-align: center;
+  margin-top: 12px;
 }
 
 .op3-p2 .svg {
-  position: absolute;
-  left: 60px;
-  top: 40px;
+
 }
 
 /* opciones de la pregunta 3 */
 
 .quest3-form1 {
-  width: 773px;
-  height: 262px;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 773px;
+  height: auto;
+  min-height: 262px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.check{
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .circulito-checkbox {
@@ -682,10 +704,11 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
 /* ------ fila1 ------*/
 
 .fila1 {
-  width: 773px;
-  height: 60px;
+  width: 100%;
+  height: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 /* Nosotros */
@@ -790,10 +813,11 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
 /* ------- fila2 --------- */
 
 .fila2 {
-  width: 690px;
-  height: 60px;
+  width: 100%;
+  height: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 /* Contacto */
@@ -895,22 +919,28 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
 /* ------- fila3 --------- */
 
 .fila3 {
-  width: 773px;
-  height: 60px;
+  width: 100%;
+  height: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 /* Tratamiento de datos personales */
 
 .checkbox7_form1 {
   width: 413px;
-  height: 60px;
+  height: auto;
+  min-height: 60px;
   background: #f9f9f9;
   position: relative;
   top: 0px;
   border-radius: 5px;
   cursor: pointer;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 42px;
 }
 
 .checkbox7_form1 h4 {
@@ -920,18 +950,16 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
   font-size: 19px;
   line-height: 24px;
   color: #585858;
-  position: absolute;
   text-align: center;
-  left: 72px;
-  top: 17px;
-  width: 309px;
+  width: 100%;
+  max-width: 309px;
   height: 25px;
+  height: auto;
+  min-height: 25px;
 }
 
 .checkbox7_form1 .svg {
-  position: absolute;
-  left: 37px;
-  top: 17px;
+  margin-right: 4%;
 }
 
 /* Términos y condiciones */
@@ -944,6 +972,10 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
   top: 0px;
   border-radius: 5px;
   cursor: pointer;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 42px;
 }
 
 .checkbox8_form1 h4 {
@@ -953,26 +985,24 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
   font-size: 19px;
   line-height: 24px;
   color: #585858;
-  position: absolute;
-  left: 79px;
-  top: 17px;
   width: 218px;
   height: 25px;
 }
 
 .checkbox8_form1 .svg {
-  position: absolute;
-  left: 38px;
-  top: 17px;
+  margin-right: 4%;
 }
 
 /* opciones de la pregunta 4 */
 
 .quest4-form1 {
-  width: 858px;
-  height: 186px;
+  width: 100%;
+  max-width: 858px;
+  height: auto;
+  min-height: 186px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .circulito4-form1 {
@@ -1014,6 +1044,7 @@ input[type="radio"]:checked + label .circulito4-form1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .p4 h4 {
@@ -1025,6 +1056,8 @@ input[type="radio"]:checked + label .circulito4-form1 {
   line-height: 24px;
   color: #585858;
   text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .number {
@@ -1054,10 +1087,13 @@ input[type="radio"]:checked + label .number {
 /* opciones de la pregunta 2 formulario 2*/
 
 .quest2-form2 {
-  width: 402px;
-  height: 170px;
+  width: 100%;
+  max-width: 402px;
+  height: auto;
+  min-height: 170px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .p-form2 {
@@ -1088,8 +1124,10 @@ input[type="radio"]:checked + label .number {
 /* opciones de la pregunta 2 formulario 2*/
 
 .quest3-form2 {
-  width: 773px;
-  height: 363px;
+  width: 100%;
+  max-width: 773px;
+  height: auto;
+  min-height: 363px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1099,10 +1137,11 @@ input[type="radio"]:checked + label .number {
 /* ------- fila4 --------- */
 
 .fila4 {
-  width: 673px;
-  height: 60px;
+  width: 100%;
+  height: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 /*   background-color: #615efc; */
 }
 
@@ -1173,10 +1212,13 @@ input[type="radio"]:checked + label .number {
 /* opciones de la pregunta 2 formulario 2*/
 
 .quest4-form2 {
-  width: 402px;
-  height: 170px;
+  width: 100%;
+  max-width: 402px;
+  height: auto;
+  min-height: 170px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 /* LAST FORM */
@@ -1194,8 +1236,10 @@ input[type="radio"]:checked + label .number {
   
 #lastForm {
     opacity: 1;
-    width: 739px;
-    height: 716px;
+    width: 100%;
+    max-width: 739px;
+    height: auto;
+    min-height: 716px;
     background-color: #fff;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
     border-radius: 15px;
@@ -1293,7 +1337,6 @@ input[type="radio"]:checked + label .number {
     line-height: 16px;
     color: #7D7D7D;
     width: 619px;
-    height: 32px;
     text-align: left;
     margin: 0;
 }

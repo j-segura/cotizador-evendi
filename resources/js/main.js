@@ -123,9 +123,6 @@ next2_linea1.onclick = function(){
     icon3_form1[6].style.stroke = "#F130D5";
     icon3_form1[7].style.stroke = "#F130D5";
     icon3_form1[8].style.stroke = "#F130D5";
-
-    /* container[0].style.height = "889px";
-    form3_linea1.style.height = "472px" */
 }
 
 next3_linea1.onclick = function(){
@@ -172,7 +169,6 @@ next3_linea1.onclick = function(){
     icon4_form1[4].style.stroke = "#F130D5";
     icon4_form1[5].style.stroke = "#F130D5";
 
-    container[0].style.height = "798px";
 }
 
 next4_linea1.onclick = function(){
@@ -238,9 +234,6 @@ back2_linea1.onclick = function(){
     icon3_form1[3].style.stroke = "#AAA";
     icon3_form1[4].style.stroke = "#AAA";
     icon3_form1[5].style.stroke = "#AAA";
-    
-
-    /* container[0].style.height = "798px"; */
 }
 
 back3_linea1.onclick = function(){
@@ -280,8 +273,6 @@ back3_linea1.onclick = function(){
     icon3_form1[6].style.stroke = "#F130D5";
     icon3_form1[7].style.stroke = "#F130D5";
     icon3_form1[8].style.stroke = "#F130D5";
-
-    container[0].style.height = "889px";
 }
 
 back4_linea1.onclick = function(){
@@ -337,8 +328,6 @@ next2_linea2.onclick = function(){
     icon3_form2[4].style.stroke = "#F130D5";
     icon3_form2[5].style.stroke = "#F130D5";
 
-    container[0].style.height = "980px";
-    form3_linea2.style.height = "561px"
 }
 
 var checkbox_form1 = document.getElementsByName('checkbox_form1');
@@ -370,13 +359,6 @@ next3_linea2.onclick = function(){
     icon4_form2[6].style.stroke = "#F130D5";
     icon4_form2[7].style.stroke = "#F130D5";
     icon4_form2[8].style.stroke = "#F130D5";
-
-
-    container[0].style.height = "798px";
-    
-    /* if(checkbox_form1[0].checked == true){
-        total.innerHTML = '1'
-    } */
 }
 
 next4_linea2.onclick = function(){
@@ -532,8 +514,6 @@ back2_linea2.onclick = function(){
     icon2_form2[7].style.stroke = "#F130D5";
     icon2_form2[8].style.stroke = "#F130D5";
     icon2_form2[9].style.stroke = "#F130D5";
-
-    container[0].style.height = "798px";
 }
 
 back3_linea2.onclick = function(){
@@ -560,8 +540,6 @@ back3_linea2.onclick = function(){
     icon4_form2[3].style.stroke = "#AAA";
     icon4_form2[4].style.stroke = "#AAA";
     icon4_form2[5].style.stroke = "#AAA";
-
-    container[0].style.height = "980px";
 }
 
 back4_linea2.onclick = function(){

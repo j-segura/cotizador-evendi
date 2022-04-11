@@ -1,0 +1,287 @@
+@media screen and (min-width: 1051px) {
+    header h1::before{
+        content: '¿Interesado? ';
+    }
+}
+
+@media screen and (min-width: 855px) and (max-width: 1051px){
+    .container {
+        width: 90%;
+    }
+
+    header h1::before{
+        content: '¿Interesado? ';
+
+    }
+
+}
+
+@media screen and (min-width: 675px) and (max-width: 855px) {
+    .container {
+        width: 95%;
+        padding: 7% 0;
+    }
+
+    header h1::before{
+        content: '¿Interesado? ';
+
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 675px) {
+    .container {
+        width: 95%;
+        padding: 8% 0;
+    }
+
+    .circulo {
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+@media screen and (max-width: 675px) {
+
+
+    /* haciendo la segunda pregunta del formulario 1 responsive */
+
+    .quest2-form1 {
+        flex-direction: column;
+        padding-left: 15px;
+        margin-bottom: 5%;
+    }
+
+    .op1-p2,
+    .op2-p2,
+    .op3-p2{
+        width: 100%;
+        max-width: 488px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        flex-direction: row;
+        height: 100px;
+        margin-bottom: 24px;
+        padding: 0 15px 0 36px;
+    }
+
+    .op1-p2 h4,
+    .op2-p2 h4,
+    .op3-p2 h4{
+        margin-left: 6.45%;
+    }
+
+    .circulito2-form1 {
+        top: 34px;
+        left: -15px;
+    }
+
+    input[type="radio"]:checked + label .circulito2-form1 {
+        left: -21px;
+        top: 34px;
+    }
+
+    /* haciendo la segunda pregunta del formulario 2 responsive */
+
+    .quest2-form2 {
+        flex-direction: column;
+        padding-left: 15px;
+        margin-bottom: 5%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p-form2 {
+        width: 100%;
+        max-width: 488px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        flex-direction: row;
+        height: 100px;
+        margin-bottom: 24px;
+        padding: 0 15px 0 36px;
+    }
+
+    .p-form2 h4 {
+        margin-left: 6.45%;
+        margin-top: 0;
+    }
+
+    /* haciendo la 4 pregunta del formulario 1 responsive */
+
+    .quest4-form1{
+        flex-direction: column;
+        padding-left: 15px;
+        margin-bottom: 5%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p4 {
+        width: 100%;
+        max-width: 488px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        flex-direction: row;
+        height: 100px;
+        margin-bottom: 24px;
+        padding: 0 15px 0 36px;
+    }
+
+    .circulito4-form1 {
+        top: 34px;
+        left: -15px;
+    }
+
+    input[type="radio"]:checked + label .circulito4-form1 {
+        left: -21px;
+        top: 34px;
+    }
+
+    .number {
+        width: 100%;
+        left: 0px;
+        bottom: -30px;
+    }
+
+    /* haciendo la 4 pregunta del formulario 2 responsive */
+
+    .quest4-form2{
+        flex-direction: column;
+        padding-left: 15px;
+        margin-bottom: 5%;
+        justify-content: center;
+        align-items: center;
+    }
+
+     /* haciendo la segunda pregunta del formulario 1 responsive */
+
+     .check{
+        width: 100%;
+    }
+
+    .checkbox7_form1{
+        padding-left: 10%;
+    }
+
+    .checkbox8_form1{
+        padding-left: 10%;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+   
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 8% 0;
+    }
+
+    .container header{
+        top: 35px;
+    }
+
+    header h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    header h2{
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+    header h4{
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .circulo {
+        width: 60px;
+        height: 60px;
+    }
+
+    h3 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        width: 95%;
+        padding: 10% 0;
+    }
+
+    .container header{
+        top: 30px;
+        margin-bottom: 0;
+    }
+
+    header h1 {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 26px;
+    }
+
+    header h2{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    header h4{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .circulo {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* form */
+
+    h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .op2 h4,
+    .op1 h4{
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .lastForm h1 {
+        font-size: 26px;
+    }
+
+    .lastForm p {
+        font-size: 18px;
+    }
+
+}
+
+
+@media screen and (max-width: 739px) {
+    #lastForm {
+        left: 0%;
+        margin-left: 0px;
+    }
+
+    .cubo {
+        margin-right: 10px;
+    }
+}

@@ -84,6 +84,8 @@ const inversa = (content) =>{
 let ancho;
 let alto;
 
+
+
 function obtenerTamaño(){
     ancho = document.documentElement.clientWidth;
     alto = document.documentElement.clientHeight;
@@ -96,7 +98,7 @@ function obtenerTamaño(){
     }else{
         barra1_responsive_part1.style.display = 'none';
         barra1.style.display = 'block';
-    }
+    }    
 
     if($('#op1').prop('checked')){
         if(ancho <= 675){
@@ -127,8 +129,6 @@ function obtenerTamaño(){
     }
 
 }
-
-
 
 /* linea 1 */
 op1.onclick = function(){

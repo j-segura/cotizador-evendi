@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./resources/css/main.css">
-    <link rel="stylesheet" href="./resources/css/responsive1.css">
+    <link rel="stylesheet" href="./resources/css/main1.css">
+    <link rel="stylesheet" href="./resources/css/responsive.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body onload="obtenerTamaño();" onresize="obtenerTamaño();">
@@ -265,6 +265,10 @@
         </div>
 
 
+
+
+
+
         <!-- primera secsion del formulario -->
         <form action="" id="form1" >
             <h3>1. ¿Para qué necesitas tu sitio?</h3>
@@ -282,7 +286,7 @@
                         <path d="M60 14.8889H8.44444C4.88528 14.8889 2 17.7742 2 21.3333V53.5555C2 57.1147 4.88528 60 8.44444 60H60C63.5592 60 66.4444 57.1147 66.4444 53.5555V21.3333C66.4444 17.7742 63.5592 14.8889 60 14.8889Z" stroke="#AAAAAA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M47.1111 60V8.44444C47.1111 6.73527 46.4321 5.0961 45.2236 3.88753C44.015 2.67897 42.3758 2 40.6667 2H27.7778C26.0686 2 24.4294 2.67897 23.2209 3.88753C22.0123 5.0961 21.3333 6.73527 21.3333 8.44444V60" stroke="#AAAAAA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>                        
-                    <h4>Difundir info de mi empresa,<br> productos y servicios </h4>
+                    <h4>Difundir info de mi empresa, productos y servicios </h4>
                 </label>
 
                 <input type="radio" name="pregunta1" id="op2" class="btn-reset" value="vender en linea" form="form-query">
@@ -380,7 +384,7 @@
                 <div class="fila1">
                 
                     <input type="checkbox" name="checkbox_form1" id="checkbox_form1" class="checkbox ghost reset valores" data-valor="100000" data-btn="#next3-linea1" value="Nosotros" form="form-query">
-                    <label class="checkbox_form1" for="checkbox_form1">
+                    <label class="checkbox_form1 check" for="checkbox_form1">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -395,7 +399,7 @@
                     </label>
     
                     <input type="checkbox" name="checkbox_form1" id="checkbox2_form1" class="checkbox ghost reset valores" data-valor="100000" data-btn="#next3-linea1" value="Mis productos" form="form-query">
-                    <label class="checkbox2_form1" for="checkbox2_form1">
+                    <label class="checkbox2_form1 check" for="checkbox2_form1">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -412,7 +416,7 @@
                     </label>
     
                     <input type="checkbox" name="checkbox_form1" id="checkbox3_form1" class="checkbox ghost reset valores" data-valor="100000" data-btn="#next3-linea1" value="Mis servicios" form="form-query">
-                    <label class="checkbox3_form1" for="checkbox3_form1">
+                    <label class="checkbox3_form1 check" for="checkbox3_form1">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -432,7 +436,7 @@
                 <div class="fila2">
 
                     <input type="checkbox" name="checkbox_form1" id="checkbox4_form1" class="checkbox ghost reset valores" data-valor="100000" data-btn="#next3-linea1" value="Contacto" form="form-query">
-                    <label class="checkbox4_form1" for="checkbox4_form1">
+                    <label class="checkbox4_form1 check" for="checkbox4_form1">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -446,7 +450,7 @@
                     </label>
 
                     <input type="checkbox" name="checkbox_form1" id="checkbox5_form1" class="checkbox ghost reset valores" data-valor="100000" data-btn="#next3-linea1" value="Blog" form="form-query">
-                    <label class="checkbox5_form1" for="checkbox5_form1">
+                    <label class="checkbox5_form1 check" for="checkbox5_form1">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -465,7 +469,7 @@
                     </label>
 
                     <input type="checkbox" name="checkbox_form1" id="checkbox6_form1" class="checkbox ghost reset valores" data-valor="100000" data-btn="#next3-linea1" value="Chat en línea" form="form-query">
-                    <label class="checkbox6_form1" for="checkbox6_form1">
+                    <label class="checkbox6_form1 check" for="checkbox6_form1">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -484,7 +488,7 @@
                 <div class="fila3">
 
                     <input type="checkbox" name="checkbox_form1" id="checkbox7_form1" class="checkbox ghost reset valores" data-valor="100000" data-btn="#next3-linea1" value="Tratamiento de datos personales" form="form-query">
-                    <label class="checkbox7_form1" for="checkbox7_form1" data-btn="#next3-linea1">
+                    <label class="checkbox7_form1 check" for="checkbox7_form1" data-btn="#next3-linea1">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -503,7 +507,7 @@
                     </label>
 
                     <input type="checkbox" name="checkbox_form1" id="checkbox8_form1" class="checkbox ghost reset valores" data-valor="100000" data-btn="#next3-linea1" value="Términos y condiciones" form="form-query">
-                    <label class="checkbox8_form1" for="checkbox8_form1">
+                    <label class="checkbox8_form1 check" for="checkbox8_form1">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -682,7 +686,7 @@
                 <div class="fila1">
                 
                     <input type="checkbox" name="checkbox_form2" id="checkbox_form2" class="checkbox ghost reset valores2" data-valor="100000" data-btn="#next3-linea2" value="Nosotros" form="form-query">
-                    <label class="checkbox_form1" for="checkbox_form2">
+                    <label class="checkbox_form1 check" for="checkbox_form2">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -697,7 +701,7 @@
                     </label>
     
                     <input type="checkbox" name="checkbox_form2" id="checkbox2_form2" class="checkbox ghost reset valores2" data-valor="100000" data-btn="#next3-linea2" value="Mis productos" form="form-query">
-                    <label class="checkbox2_form1" for="checkbox2_form2">
+                    <label class="checkbox2_form1 check" for="checkbox2_form2">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -714,7 +718,7 @@
                     </label>
     
                     <input type="checkbox" name="checkbox_form2" id="checkbox3_form2" class="checkbox ghost reset valores2" data-valor="100000" data-btn="#next3-linea2" value="Mis servicios" form="form-query">
-                    <label class="checkbox3_form1" for="checkbox3_form2">
+                    <label class="checkbox3_form1 check" for="checkbox3_form2">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -734,7 +738,7 @@
                 <div class="fila2">
 
                     <input type="checkbox" name="checkbox_form2" id="checkbox4_form2" class="checkbox ghost reset valores2" data-valor="100000" data-btn="#next3-linea2" value="Contacto" form="form-query">
-                    <label class="checkbox4_form1" for="checkbox4_form2">
+                    <label class="checkbox4_form1 check" for="checkbox4_form2">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -748,7 +752,7 @@
                     </label>
 
                     <input type="checkbox" name="checkbox_form2" id="checkbox5_form2" class="checkbox ghost reset valores2" data-valor="100000" data-btn="#next3-linea2" value="Blog" form="form-query">
-                    <label class="checkbox5_form1" for="checkbox5_form2">
+                    <label class="checkbox5_form1 check" for="checkbox5_form2">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -767,7 +771,7 @@
                     </label>
 
                     <input type="checkbox" name="checkbox_form2" id="checkbox6_form2" class="checkbox ghost reset valores2" data-valor="100000" data-btn="#next3-linea2" value="Chat en línea" form="form-query">
-                    <label class="checkbox6_form1" for="checkbox6_form2">
+                    <label class="checkbox6_form1 check" for="checkbox6_form2">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -786,7 +790,7 @@
                 <div class="fila3">
 
                     <input type="checkbox" name="checkbox_form2" id="checkbox7_form2" class="checkbox ghost reset valores2" data-valor="100000" data-btn="#next3-linea2" value="Tratamiento de datos personales" form="form-query">
-                    <label class="checkbox7_form1" for="checkbox7_form2">
+                    <label class="checkbox7_form1 check" for="checkbox7_form2">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -805,7 +809,7 @@
                     </label>
 
                     <input type="checkbox" name="checkbox_form2" id="checkbox8_form2" class="checkbox ghost reset valores2" data-valor="100000" data-btn="#next3-linea2" value="Términos y condiciones" form="form-query">
-                    <label class="checkbox8_form1" for="checkbox8_form2" data-btn="#next3-linea2">
+                    <label class="checkbox8_form1 check" for="checkbox8_form2" data-btn="#next3-linea2">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -826,7 +830,7 @@
                 <div class="fila4">
 
                     <input type="checkbox" name="checkbox_form2" id="checkbox9_form2" class="checkbox ghost reset valores2" data-valor="100000" data-btn="#next3-linea2" value="Politicas de envío">
-                    <label class="checkbox9_form2" for="checkbox9_form2" form="form-query">
+                    <label class="checkbox9_form2 check" for="checkbox9_form2" form="form-query">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -844,7 +848,7 @@
                     </label>
 
                     <input type="checkbox" name="checkbox_form2" id="checkbox10_form2" class="checkbox ghost reset valores2" data-valor="100000" data-btn="#next3-linea2" value="Politicas de devoluciones" form="form-query">
-                    <label class="checkbox10_form2" for="checkbox10_form2">
+                    <label class="checkbox10_form2 check" for="checkbox10_form2">
                         <div class="circulito-checkbox">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.9091 8.73109V9.50472C17.9081 11.3181 17.3209 13.0825 16.2351 14.5349C15.1494 15.9873 13.6232 17.0498 11.8843 17.5639C10.1454 18.0781 8.28682 18.0163 6.58584 17.3879C4.88485 16.7595 3.43258 15.598 2.44561 14.0768C1.45864 12.5556 0.989858 10.756 1.10917 8.94662C1.22848 7.1372 1.9295 5.41482 3.10768 4.03635C4.28585 2.65789 5.87806 1.6972 7.64683 1.29757C9.4156 0.897944 11.2662 1.08078 12.9225 1.81882" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1091,7 +1095,7 @@
     <?php
     include("enviar.php");
     ?>
-    <script src="./resources/js/main1.js"></script>
-    <script src="./resources/js/logic1.js"></script>
+    <script src="./resources/js/main.js"></script>
+    <script src="./resources/js/logic.js"></script>
 </body>
 </html>
