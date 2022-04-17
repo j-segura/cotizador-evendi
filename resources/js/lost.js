@@ -89,7 +89,36 @@ var icon5_form2 = document.getElementsByClassName('icon5-form2');
 var icon6_form2 = document.getElementsByClassName('icon6-form2');
 var icon7_form2 = document.getElementsByClassName('icon7-form2');
 
+var barra1 = document.getElementById('barra1');
+var barra2 = document.getElementById('barra2');
+
 var container = document.getElementsByClassName('container');
+
+let contador = 0;
+
+let ancho;
+let alto;
+
+function obtenerTamaño(){
+    ancho = document.documentElement.clientWidth;
+    alto = document.documentElement.clientHeight;
+    let contenido = `Ancho: ${ancho} - Alto: ${alto}`;
+    console.log(contenido);
+
+    if(ancho > 675 && contador == 0){
+        barra1.style.left = '0';
+        barra2.style.left = '0'; 
+    }
+    
+    if(ancho <= 675 && contador == 1){
+        barra1.style.left = '-65%';
+        barra2.style.left = '-75%'; 
+    }else{
+        barra1.style.left = '0';
+        barra2.style.left = '0'; 
+    }
+}
+
 
 /* nexts de la linea 1 */
 
@@ -110,6 +139,15 @@ next2_linea1.onclick = function(){
 }
 
 next3_linea1.onclick = function(){
+    
+    contador = 1;
+    console.log(contador);
+
+    if(ancho <= 675){
+        barra1.style.left = '-65%';
+    }else{
+        barra1.style.left = '0';
+    } 
 
     form3_linea1.style.display = 'none';
     form4_linea1.style.display = 'flex';
@@ -176,6 +214,16 @@ back2_linea1.onclick = function(){
 }
 
 back3_linea1.onclick = function(){
+
+    contador = 0;
+    console.log(contador);
+
+    if(ancho <= 675){
+        barra1.style.left = '0';
+    }else{
+        barra1.style.left = '0';
+    } 
+
     form3_linea1.style.display = 'flex';
     form4_linea1.style.display = 'none';
     progress1.style.width = '50%';
@@ -250,6 +298,14 @@ next3_linea2.onclick = function(){
 
 next4_linea2.onclick = function(){
 
+    contador = 1;
+    console.log(contador);
+
+    if(ancho <= 675){
+        barra2.style.left = '-75%';
+    }else{
+        barra2.style.left = '0';
+    } 
 
     form4_linea2.style.display = 'none';
     form5_linea2.style.display = 'flex';
@@ -361,6 +417,15 @@ back3_linea2.onclick = function(){
 
 back4_linea2.onclick = function(){
 
+    contador = 0;
+    console.log(contador);
+
+    if(ancho <= 675){
+        barra2.style.left = '0';
+    }else{
+        barra2.style.left = '0';
+    }
+
     form4_linea2.style.display = 'flex';
     form5_linea2.style.display = 'none';
     progress2.style.width = '50.8%';
@@ -373,6 +438,8 @@ back4_linea2.onclick = function(){
 
     icon5_form2[0].style.stroke = "#AAA";
     icon5_form2[1].style.stroke = "#AAA";
+    icon5_form2[2].style.stroke = "#AAA";
+    icon5_form2[3].style.stroke = "#AAA";
 }
 
 back5_linea2.onclick = function(){

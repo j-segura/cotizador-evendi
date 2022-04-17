@@ -85,15 +85,7 @@ const inversa = (content) =>{
     return price.join('');
 }
 
-let ancho;
-let alto;
 
-function obtenerTamaño(){
-    ancho = document.documentElement.clientWidth;
-    alto = document.documentElement.clientHeight;
-    let contenido = `Ancho: ${ancho} - Alto: ${alto}`;
-    console.log(contenido);
-}
 
 /* linea 1 */
 op1.onclick = function(){

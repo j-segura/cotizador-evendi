@@ -250,30 +250,25 @@ button {
 
 /* barras de progreso */
 
+#barra_space{
+  width: 100%;
+  height: auto;
+  margin-bottom: 7%;
+}
+
 .barra{
   width: 100%;
   height: 73px;
   /* margin-bottom: 48px; */
 }
 
+#barra1{
+  position: relative;
+}
+
 #barra2{
   display: none;
-}
-
-#barra1_responsive_part1{
-  display: none;
-}
-
-#barra1_responsive_part2{
-  display: none;
-}
-
-#barra2_responsive_part1{
-  display: none;
-}
-
-#barra2_responsive_part2{
-  display: none;
+  position: relative;
 }
 
 .step-row {

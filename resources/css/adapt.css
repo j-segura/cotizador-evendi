@@ -39,9 +39,21 @@
         height: 60px;
     }
 
+    
+
 }
 
 @media screen and (max-width: 675px) {
+
+    #barra1{
+        width: 165%;
+        /* left: -65%; */
+    }
+
+    #barra2{
+        width: 175%;
+        /* left: -75%; */
+    }
 
 
     /* haciendo la segunda pregunta del formulario 1 responsive */

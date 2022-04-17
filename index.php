@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./resources/css/main1.css">
-    <link rel="stylesheet" href="./resources/css/responsive1.css">
+    <link rel="stylesheet" href="./resources/css/ferd.css">
+    <link rel="stylesheet" href="./resources/css/adapt.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body onload="obtenerTamaño();" onresize="obtenerTamaño();">
@@ -21,10 +21,9 @@
 
         <!-- linea indicadora de la completacion del formulario -->
 
-        
-
+      <div id="barra_space">
+            
         <!-- linea fila 1 -->
-
         <div class="barra" id="barra1">
              <div class="step-row">
                  <div id="progress1"></div>
@@ -70,7 +69,6 @@
         </div>
 
         <!-- linea fila 2 -->
-
         <div class="barra" id="barra2">
             <div class="step-row">
                 <div id="progress2"></div>
@@ -130,6 +128,7 @@
             </div>
         </div>
 
+      </div>
 
 
 
@@ -961,7 +960,7 @@
     <?php
     include("enviar.php");
     ?>
-    <script src="./resources/js/index.js"></script>
-    <script src="./resources/js/log.js"></script>
+    <script src="./resources/js/lost.js"></script>
+    <script src="./resources/js/smart.js"></script>
 </body>
 </html>
