@@ -10,19 +10,23 @@
   font-family: "Quicksand", sans-serif;
 }
 
+html{
+  font-size: 10px;
+}
+
 body {
-  background-color: rgba(0, 255, 51, 0.165);
+  background-color: rgb(25, 25, 25);
   padding: 2px;
 }
 
-/* .pink {
+.pink {
   width: 100%;
   height: 45%;
-  background-color: #F130D5;
+  background-color: #3f3f3f;
   position: absolute;
   top: 0;
   z-index: -1;
-} */
+}
 
 .container {
   width: 1051px;
@@ -53,14 +57,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 7%;
 }
 
 header h1 {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 3.5rem;
   line-height: 41px;
   text-align: center;
   color: #6c1c81;
@@ -70,18 +74,18 @@ header h2 {
   font-family: Quicksand;
   font-style: normal;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 2.3rem;
   line-height: 29px;
   text-align: center;
   color: #4b4b4b;
-  margin-top: 8px;
+  margin-top: 9px;
 }
 
 header h4 {
   font-family: Quicksand;
   font-style: normal;
   font-weight: normal;
-  font-size: 38px;
+  font-size: 3.8rem;
   line-height: 47px;
   text-align: center;
   letter-spacing: 0.02em;
@@ -95,18 +99,16 @@ h3 {
   font-family: Quicksand;
   font-style: normal;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 2.8rem;
   line-height: 35px;
   text-align: center;
   color: #4b4b4b;
-  padding-bottom: 25px;
+  margin-bottom: 4%;
 }
 
 .container form {
   width: 100%;
-  /* height: 396px; */
   height: auto;
-  min-height: 396px;
   transition: 0.5s;
   padding: 0 3.8%;
   display: flex;
@@ -137,7 +139,7 @@ h3 {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 2.8rem;
   line-height: 35px;
   text-align: center;
   color: #6c1c81;
@@ -148,7 +150,7 @@ h3 {
   font-family: 'Quicksand';
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 2.4rem;
   line-height: 30px;
   color: #4B4B4B;
 
@@ -159,7 +161,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-bottom: 71px;
+  padding-bottom: 8%;
 
 }
 
@@ -212,6 +214,7 @@ h3 {
   /* position: absolute;
   bottom: 0px; */
   padding: 0 2%;
+  margin-top: 4%;
 }
 
 button {
@@ -220,10 +223,11 @@ button {
   border-radius: 5px;
   border: none;
   font-family: "Quicksand", sans-serif;
-  font-size: 19px;
+  font-size: 1.9rem;
   font-weight: 500;
   line-height: 23.75px;
   text-align: center;
+  
 }
 
 #back {
@@ -446,15 +450,11 @@ form input[type="checkbox"] {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 24px;
   color: #585858;
   max-width: 278px;
   margin-left: 6.45%;
-}
-
-.op1 .svg {
-
 }
 
 /* opcion numero 2 */
@@ -480,15 +480,11 @@ form input[type="checkbox"] {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 24px;
   color: #585858;
   height: 25px;
   margin-left: 6.45%;
-}
-
-.op2 .svg {
-
 }
 
 input[type="radio"]:checked + label,
@@ -575,16 +571,13 @@ input[type="radio"]:checked + label .circulito2-form1 {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 24px;
   color: #585858;
   height: 48px;
   text-align: center;
   margin-top: 12px;
-}
-
-.op1-p2 .svg {
-
+  max-width: 74px;
 }
 
 /* opcion 2 */
@@ -607,16 +600,13 @@ input[type="radio"]:checked + label .circulito2-form1 {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 24px;
   color: #585858;
   height: 48px;
   text-align: center;
   margin-top: 12px;
-}
-
-.op2-p2 .svg {
-
+  max-width: 92px;
 }
 
 /* opcion 3 */
@@ -639,16 +629,13 @@ input[type="radio"]:checked + label .circulito2-form1 {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 24px;
   color: #585858;
   height: 48px;
   text-align: center;
   margin-top: 12px;
-}
-
-.op3-p2 .svg {
-
+  max-width: 92px;
 }
 
 /* opciones de la pregunta 3 */
@@ -755,7 +742,7 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 24px;
   text-align: center;
   color: #585858;
@@ -788,7 +775,7 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 24px;
   text-align: center;
   color: #585858;
@@ -831,7 +818,7 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 24px;
   color: #585858;
   position: absolute;
@@ -863,7 +850,7 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 24px;
   color: #585858;
   position: absolute;
@@ -895,7 +882,7 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 24px;
   color: #585858;
   position: absolute;
@@ -942,7 +929,7 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 24px;
   color: #585858;
   text-align: center;
@@ -977,7 +964,7 @@ input[type="checkbox"]:checked + label .circulito-checkbox {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 24px;
   color: #585858;
   width: 218px;
@@ -1047,7 +1034,7 @@ input[type="radio"]:checked + label .circulito4-form1 {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 24px;
   color: #585858;
   text-align: center;
@@ -1068,7 +1055,7 @@ input[type="radio"]:checked + label .circulito4-form1 {
   font-family: Quicksand;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 22px;
   text-align: center;
   color: #b5b5b5;
@@ -1110,7 +1097,7 @@ input[type="radio"]:checked + label .number {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 24px;
   color: #585858;
   text-align: center;
@@ -1156,7 +1143,7 @@ input[type="radio"]:checked + label .number {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 24px;
   color: #585858;
   position: absolute;
@@ -1221,12 +1208,13 @@ input[type="radio"]:checked + label .number {
 #sombra {
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
-    height: 1300px;
+    height: 100pc;
     position: absolute;
     top: 0;
     z-index: 3;
     display: none;
     transform: 0.5s;
+    z-index: 9;
 }
   
 #lastForm {
@@ -1239,7 +1227,7 @@ input[type="radio"]:checked + label .number {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
     border-radius: 15px;
     display: none;
-    z-index: 5;
+    z-index: 10;
   
     position: absolute;
     top: 8%;
@@ -1254,7 +1242,7 @@ input[type="radio"]:checked + label .number {
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 3.5rem;
     line-height: 41px;
     /* identical to box height */
     text-align: center;
@@ -1265,7 +1253,7 @@ input[type="radio"]:checked + label .number {
     font-family: Quicksand;
     font-style: normal;
     font-weight: normal;
-    font-size: 23px;
+    font-size: 2.3rem;
     line-height: 29px;
     /* identical to box height */
     text-align: center;
@@ -1299,7 +1287,7 @@ input[type="radio"]:checked + label .number {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 16px;
     color: #6C6C6C;
 }
@@ -1313,7 +1301,7 @@ input[type="radio"]:checked + label .number {
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 2.4rem;
     line-height: 30px;
     text-align: center;
 }
@@ -1328,7 +1316,7 @@ input[type="radio"]:checked + label .number {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 16px;
     color: #7D7D7D;
     width: 619px;
@@ -1338,6 +1326,7 @@ input[type="radio"]:checked + label .number {
 
 .cubo{
     width: 19px;
+    min-width: 19px;
     height: 19px;
     background: #FFFFFF;
     border: 1px solid #C1C1C1;

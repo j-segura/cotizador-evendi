@@ -13,7 +13,6 @@
         content: '¿Interesado? ';
 
     }
-
 }
 
 @media screen and (min-width: 675px) and (max-width: 855px) {
@@ -26,17 +25,22 @@
         content: '¿Interesado? ';
 
     }
+
+    .quest4-form1 {
+        width: 429px;
+    }
+
 }
 
 @media screen and (min-width: 480px) and (max-width: 675px) {
+
+    html {
+        font-size: 9px;
+    }
+
     .container {
         width: 95%;
         padding: 8% 0;
-    }
-
-    .circulo {
-        width: 60px;
-        height: 60px;
     }
 
     
@@ -82,6 +86,7 @@
     .op2-p2 h4,
     .op3-p2 h4{
         margin-left: 6.45%;
+        max-width: none;
     }
 
     .circulito2-form1 {
@@ -185,11 +190,7 @@
 
 }
 
-@media screen and (max-width: 480px){
-   
-}
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 321px) and (max-width: 480px) {
     .container {
         width: 95%;
         padding: 8% 0;
@@ -199,22 +200,8 @@
         top: 35px;
     }
 
-    header h1 {
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 30px;
-    }
-
-    header h2{
-        font-weight: 400;
-        font-size: 19px;
-        line-height: 24px;
-    }
-
-    header h4{
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 40px;
+    html {
+        font-size: 8px;
     }
 
     .circulo {
@@ -222,14 +209,40 @@
         height: 60px;
     }
 
-    h3 {
-        font-size: 22px;
-        line-height: 22px;
+    .last_btn_box{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .last_btn_box button {
+        width: 100%;
+        height: auto;
+        min-height: 35px;
+    }
+
+    .bt1{
+        margin-bottom: 20px;
+    }
+
+    .bt2{
+        padding: 20px 0;
+        font-size: 20px;
+    }
+
+    #form5-linea1 .r{
+        font-size: 23px;
+        padding-bottom: 10px;
     }
 
 }
 
 @media screen and (max-width: 320px) {
+
+    html {
+        font-size: 7.7px;
+    }
+
     .container {
         width: 95%;
         padding: 10% 0;
@@ -237,53 +250,72 @@
 
     .container header{
         top: 30px;
-        margin-bottom: 0;
+        margin-bottom: 4%;
     }
 
-    header h1 {
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 26px;
-    }
-
-    header h2{
-        font-weight: 400;
-        font-size: 15px;
+    header h2 {
         line-height: 19px;
+        font-size: 16px;
+
     }
 
-    header h4{
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 30px;
+    header h4 {
+        margin-top: 9px;
+    }
+    
+    h3 {
+        font-size: 18px;
+        margin-bottom: 7%;
     }
 
     .circulo {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
+    }
+    .escala{
+        width: 19px;
+        height: 19px;
     }
 
-    /* form */
-
-    h3 {
-        font-size: 18px;
-        line-height: 22px;
+    #barra_space{
+        margin-bottom: 3%;
     }
 
-    .op2 h4,
-    .op1 h4{
+    button {
+        width: 101px;
+        height: 35px;
         font-size: 15px;
-        line-height: 19px;
     }
 
-    .lastForm h1 {
-        font-size: 26px;
+    .btn-box {
+        margin-top: 15%;
     }
 
-    .lastForm p {
-        font-size: 18px;
+    #form5-linea1 .r{
+        font-size: 20px;
+        padding-bottom: 10px;
     }
 
+    .resumen {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    .last_btn_box{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .last_btn_box button {
+        width: 100%;
+        height: auto;
+        min-height: 35px;
+    }
+
+    .bt1{
+        margin-bottom: 20px;
+    }
 }
 
 

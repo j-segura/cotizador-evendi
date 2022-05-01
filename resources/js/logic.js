@@ -19,20 +19,8 @@ var next6_linea2 = document.getElementById('next6-linea2');
 var barra1 = document.getElementById('barra1');
 var barra2 = document.getElementById('barra2');
 
-
-/* var barra1_responsive_part1 = document.getElementById('barra1_responsive_part1');
-var barra1_responsive_part2 = document.getElementById('barra1_responsive_part2');
-var barra2_responsive_part1 = document.getElementById('barra2_responsive_part1');
-var barra2_responsive_part2 = document.getElementById('barra2_responsive_part2'); */
-
 var progress1 = document.getElementById('progress1');
 var progress2 = document.getElementById('progress2');
-
-
-/* var progress1_part1 = document.getElementById('progress1_part1');
-var progress1_part2 = document.getElementById('progress1_part2');
-var progress2_part1 = document.getElementById('progress2_part1');
-var progress2_part2 = document.getElementById('progress2_part2'); */
 
 var step1_form1 = document.getElementById('step1-form1');
 var step2_form1 = document.getElementById('step2-form1');

@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./resources/css/ferd.css">
-    <link rel="stylesheet" href="./resources/css/adapt.css">
+    <link rel="stylesheet" href="./resources/css/index.css">
+    <link rel="stylesheet" href="./resources/css/respons.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body onload="obtenerTamaño();" onresize="obtenerTamaño();">
     <div class="pink"></div>
+    
     <div class="container">
 
         <header>
@@ -30,20 +31,20 @@
              </div>
              <div class="step-img" id="img-progress1">
                 <div class="circulo" id="step1-form1">
-                    <svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg" class="escala">
                         <path class="icon1-form1" d="M5.16667 20.4444H3.77778C3.04106 20.4444 2.33453 20.1518 1.81359 19.6308C1.29266 19.1099 1 18.4034 1 17.6667V3.77778C1 3.04106 1.29266 2.33453 1.81359 1.81359C2.33453 1.29266 3.04106 1 3.77778 1H26C26.7367 1 27.4432 1.29266 27.9642 1.81359C28.4851 2.33453 28.7778 3.04106 28.7778 3.77778V17.6667C28.7778 18.4034 28.4851 19.1099 27.9642 19.6308C27.4432 20.1518 26.7367 20.4444 26 20.4444H24.6111" stroke="#F130D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon1-form1" d="M14.8889 17.6667L21.8333 26H7.94446L14.8889 17.6667Z" stroke="#F130D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>    
 
                 </div>
                 <div class="circulo" id="step2-form1">
-                    <svg width="25" height="27" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="25" height="27" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg" class="escala">
                         <path class="icon2-form1" d="M17.25 12.25V7.25M23.5 1H1V21H7.25V26L12.25 21H18.5L23.5 16V1ZM11 12.25V7.25V12.25Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg> 
 
                 </div>
                 <div class="circulo" id="step3-form1">
-                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg" class="escala">
                         <path class="icon3-form1" d="M13.5 1L1 7.25L13.5 13.5L26 7.25L13.5 1Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon3-form1" d="M1 19.75L13.5 26L26 19.75" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon3-form1" d="M1 13.5L13.5 19.75L26 13.5" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -51,7 +52,7 @@
                         
                 </div>
                 <div class="circulo" id="step4-form1">
-                    <svg width="25" height="27" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="25" height="27" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg" class="escala">
                         <path class="icon4-form1" d="M4.75 1L1 6V23.5C1 24.163 1.26339 24.7989 1.73223 25.2678C2.20107 25.7366 2.83696 26 3.5 26H21C21.663 26 22.2989 25.7366 22.7678 25.2678C23.2366 24.7989 23.5 24.163 23.5 23.5V6L19.75 1H4.75Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon4-form1" d="M1 6H23.5" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon4-form1" d="M17.25 11C17.25 12.3261 16.7232 13.5979 15.7855 14.5355C14.8479 15.4732 13.5761 16 12.25 16C10.9239 16 9.65215 15.4732 8.71447 14.5355C7.77678 13.5979 7.25 12.3261 7.25 11" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -59,7 +60,7 @@
                         
                 </div>
                 <div class="circulo" id="step5-form1">
-                    <svg width="18" height="27" viewBox="0 0 18 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="18" height="27" viewBox="0 0 18 27" fill="none" xmlns="http://www.w3.org/2000/svg" class="escala">
                         <path class="icon5-form1" d="M8.95455 16.9091C13.3477 16.9091 16.9091 13.3477 16.9091 8.95455C16.9091 4.56137 13.3477 1 8.95455 1C4.56137 1 1 4.56137 1 8.95455C1 13.3477 4.56137 16.9091 8.95455 16.9091Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon5-form1" d="M4.64774 15.6477L3.27274 26L8.95455 22.5909L14.6364 26L13.2614 15.6364" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -75,13 +76,13 @@
             </div>
             <div class="step-img"  id="img-progress2">
                 <div class="circulo" id="step1-form2">
-                    <svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg" class="escala">
                         <path class="icon1-form2" d="M5.16667 20.4444H3.77778C3.04106 20.4444 2.33453 20.1518 1.81359 19.6308C1.29266 19.1099 1 18.4034 1 17.6667V3.77778C1 3.04106 1.29266 2.33453 1.81359 1.81359C2.33453 1.29266 3.04106 1 3.77778 1H26C26.7367 1 27.4432 1.29266 27.9642 1.81359C28.4851 2.33453 28.7778 3.04106 28.7778 3.77778V17.6667C28.7778 18.4034 28.4851 19.1099 27.9642 19.6308C27.4432 20.1518 26.7367 20.4444 26 20.4444H24.6111" stroke="#F130D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon1-form2" class="icon1" d="M14.8889 17.6667L21.8333 26H7.94446L14.8889 17.6667Z" stroke="#F130D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>  
                 </div>
                 <div class="circulo" id="step2-form2">
-                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg" class="escala">
                         <path class="icon2-form2" d="M23.5 13.5V26H3.5V13.5" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon2-form2" d="M26 7.25H1V13.5H26V7.25Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon2-form2" d="M13.5 26V7.25" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -90,21 +91,21 @@
                         </svg>    
                 </div>
                 <div class="circulo" id="step3-form2">
-                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg" class="escala">
                         <path class="icon3-form2" d="M13.5 1L1 7.25L13.5 13.5L26 7.25L13.5 1Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon3-form2" d="M1 19.75L13.5 26L26 19.75" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon3-form2" d="M1 13.5L13.5 19.75L26 13.5" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>                        
                 </div>
                 <div class="circulo" id="step4-form2">
-                    <svg width="29" height="27" viewBox="0 0 29 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="29" height="27" viewBox="0 0 29 27" fill="none" xmlns="http://www.w3.org/2000/svg" class="escala">
                         <path class="icon4-form2" d="M10.5238 26C11.1813 26 11.7143 25.467 11.7143 24.8095C11.7143 24.152 11.1813 23.619 10.5238 23.619C9.86633 23.619 9.33333 24.152 9.33333 24.8095C9.33333 25.467 9.86633 26 10.5238 26Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon4-form2" d="M23.619 26C24.2765 26 24.8095 25.467 24.8095 24.8095C24.8095 24.152 24.2765 23.619 23.619 23.619C22.9616 23.619 22.4286 24.152 22.4286 24.8095C22.4286 25.467 22.9616 26 23.619 26Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon4-form2" d="M1 1H5.7619L8.95238 16.9405C9.06124 17.4886 9.35941 17.9809 9.7947 18.3313C10.23 18.6817 10.7746 18.8678 11.3333 18.8571H22.9048C23.4635 18.8678 24.0081 18.6817 24.4434 18.3313C24.8787 17.9809 25.1769 17.4886 25.2857 16.9405L27.1905 6.95238H6.95238" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>                        
                 </div>
                 <div class="circulo" id="step5-form2">
-                    <svg width="33" height="27" viewBox="0 0 33 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="33" height="27" viewBox="0 0 33 27" fill="none" xmlns="http://www.w3.org/2000/svg" class="escala">
                         <path class="icon5-form2" d="M21.8333 1H1V19.0556H21.8333V1Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon5-form2" d="M21.8333 7.94444H27.3889L31.5556 12.1111V19.0556H21.8333V7.94444Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon5-form2" d="M7.24999 26C9.16765 26 10.7222 24.4454 10.7222 22.5278C10.7222 20.6101 9.16765 19.0556 7.24999 19.0556C5.33234 19.0556 3.77777 20.6101 3.77777 22.5278C3.77777 24.4454 5.33234 26 7.24999 26Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -112,14 +113,14 @@
                         </svg>                        
                 </div>
                 <div class="circulo" id="step6-form2">
-                    <svg width="25" height="27" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="25" height="27" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg" class="escala">
                         <path class="icon6-form2" d="M4.75 1L1 6V23.5C1 24.163 1.26339 24.7989 1.73223 25.2678C2.20107 25.7366 2.83696 26 3.5 26H21C21.663 26 22.2989 25.7366 22.7678 25.2678C23.2366 24.7989 23.5 24.163 23.5 23.5V6L19.75 1H4.75Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon6-form2" d="M1 6H23.5" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon6-form2" d="M17.25 11C17.25 12.3261 16.7232 13.5979 15.7855 14.5355C14.8479 15.4732 13.5761 16 12.25 16C10.9239 16 9.65215 15.4732 8.71447 14.5355C7.77678 13.5979 7.25 12.3261 7.25 11" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>                        
                 </div>
                 <div class="circulo" id="step7-form2">
-                    <svg width="18" height="27" viewBox="0 0 18 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="18" height="27" viewBox="0 0 18 27" fill="none" xmlns="http://www.w3.org/2000/svg" class="escala">
                         <path class="icon7-form2" d="M8.95455 16.9091C13.3477 16.9091 16.9091 13.3477 16.9091 8.95455C16.9091 4.56137 13.3477 1 8.95455 1C4.56137 1 1 4.56137 1 8.95455C1 13.3477 4.56137 16.9091 8.95455 16.9091Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="icon7-form2" d="M4.64774 15.6477L3.27274 26L8.95455 22.5909L14.6364 26L13.2614 15.6364" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -129,10 +130,6 @@
         </div>
 
       </div>
-
-
-
-
 
         <!-- primera secsion del formulario -->
         <form action="" id="form1" >
@@ -197,7 +194,7 @@
                         <path d="M28.625 2V22.4167H49.3333" stroke="#AAAAAA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                                               
-                    <h4>Landing <br>page</h4>
+                    <h4>Landing page</h4>
                 </label>
 
                 <input type="radio" name="pregunta2" id="op2-p2" class="pregunta2-l1 reset" data-valor="300000" value="One page con servicios" form="form-query">
@@ -213,7 +210,7 @@
                         <path d="M21.3334 60H47.1112" stroke="#AAAAAA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M34.2222 47.1111V60" stroke="#AAAAAA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>                        
-                    <h4>One page <br>(servicios)</h4>
+                    <h4>One page (servicios)</h4>
                 </label>
 
                 <input type="radio" name="pregunta2" id="op3-p2" class="pregunta2-l1 reset" data-valor="400000" value="Sitio web con internas" form="form-query">
@@ -230,7 +227,7 @@
                         <path d="M19.6666 55V19.6666" stroke="#AAA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                                                
-                    <h4>Sitio web <br>(Internas)</h4>
+                    <h4>Sitio web (Internas)</h4>
                 </label>
 
 
@@ -487,9 +484,9 @@
                 <p><strong>Internas: </strong><span id="internas">Nosotros, mis productos, contacto, chat en línea</span></p>
                 <p><strong>Cantidad de servicios/productos: </strong><span id="num-products">25</span></p>
             </div>
-            <div class="btn-box">
-                <button type="button" id="back4-linea1" class="btn-anterior">Anterior</button>
-                <button type="button" id="btn-enviarme1" class="btn-enviar">Enviarme este presupuesto a mi correo electrónico</button>
+            <div class="btn-box last_btn_box">
+                <button type="button" id="back4-linea1" class="btn-anterior bt1">Anterior</button>
+                <button type="button" id="btn-enviarme1" class="btn-enviar bt2">Enviarme este presupuesto a mi correo electrónico</button>
             </div>
         </form>
 
@@ -910,9 +907,9 @@
                 <p><strong>Internas: </strong><span id="internas2">Nosotros, mis productos, contacto, chat en línea</span></p>
                 <p><strong>Cantidad de servicios/productos: </strong><span id="num-products2">25</span></p>
             </div>
-            <div class="btn-box">
-                <button type="button" id="back6-linea2" class="btn-anterior">Anterior</button>
-                <button type="button" id="btn-enviarme2" class="btn-enviar">Enviarme este presupuesto a mi correo electrónico</button>
+            <div class="btn-box last_btn_box">
+                <button type="button" id="back6-linea2" class="btn-anterior bt1">Anterior</button>
+                <button type="button" id="btn-enviarme2" class="btn-enviar bt2">Enviarme este presupuesto a mi correo electrónico</button>
             </div>
         </form>
         
@@ -928,14 +925,14 @@
         <p>Completa tus datos para recibir cotización oficial</p>
         <form method="post" id="form-query">
 
-            <label for="nombre">¿Cuál es tu nombre?<span class="color">*</span></label>
-            <input class="in" type="text" id="nombre" name="name" placeholder="Escribe tu nombre" required>
-
-            <label for="apellido">¿Cuáles son tus apellidos?<span class="color">*</span></label>
-            <input class="in" type="text" id="apellido" name="apellidos" placeholder="Escribe tus apellidos" required>
+            <label for="nombre">Nombre y apellidos<span class="color">*</span></label>
+            <input class="in" type="text" id="nombre" name="name" placeholder="Escribe tu nombre y apellido" required>
 
             <label for="correo">¿Cuál es tu correo?<span class="color">*</span></label>
             <input class="in" type="text" id="correo" name="email" placeholder="Escribe tu correo electrónico" required>
+
+            <label for="apellido">¿Cuál es tu teléfono o celular?<span class="color">*</span></label>
+            <input class="in" type="text" id="telefono" name="telefono" placeholder="Escribe tu teléfono o celular" required>
 
             <label for="ciudad">¿Cuál es tu ciudad?<span class="color">*</span></label>
             <input class="in" type="text" id="ciudad" name="ciudad" placeholder="Escoge tu ciudad de residencia" required>
@@ -960,7 +957,7 @@
     <?php
     include("enviar.php");
     ?>
-    <script src="./resources/js/lost.js"></script>
-    <script src="./resources/js/smart.js"></script>
+    <script src="./resources/js/logic.js"></script>
+    <script src="./resources/js/main.js"></script>
 </body>
 </html>
