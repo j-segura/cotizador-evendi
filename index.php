@@ -479,7 +479,7 @@
 
         <!-- pagina 5. linea 1-->
         <form action="" id="form5-linea1">
-            <h3 class="r">Resumen de tu cotización</h3>
+            <h3 class="r_h3">Resumen de tu cotización</h3>
             <div class="resumen">
                 <p><strong>Tipo: </strong><span id="tipo">Sitio web con internas</span></p>
                 <p><strong>¿Para qué?: </strong><span>Difundir info de mi empresa productos y servicios</span></p>
@@ -902,7 +902,7 @@
 
         <!-- pagina 6. linea 2 --->
         <form action="" id="form7-linea2">
-            <h3 class="r">Resumen de tu cotización</h3>
+            <h3 class="r_h3">Resumen de tu cotización</h3>
             <div class="resumen">
                 <p><strong>Tipo: </strong><span id="tipo2">Sitio web con internas</span></p>
                 <p><strong>¿Para qué?: </strong><span>Vender en línea</span></p>

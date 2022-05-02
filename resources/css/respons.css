@@ -43,7 +43,111 @@
         padding: 8% 0;
     }
 
+    .container header{
+        margin-top: 20px;
+    }
+
+    header h2 {
+        max-width: 500px;
+    }
+
+    .circulo {
+        width: 65px;
+        height: 65px;
+    }
+
+    .btn-box {
+        margin-top: 10%;
+    }
+
+    h3 {
+        font-size: 24px;
+        margin-bottom: 9%;
+        line-height: 22.5px;
+    }
+
+    /* respuestas de la tercera pregunta */
+
+    .check h4{
+        font-size: 18px;
+        position: absolute;
+        left: 80px;
+        text-align: left;
+    }
+
+    .checkbox7_form1 h4{
+        width: 300px;
+        line-height: 20px;
+    }
+
+    .checkbox_form1 .svg,
+    .checkbox4_form1 .svg,
+    .checkbox6_form1 .svg,
+    .checkbox9_form2 .svg,
+    .checkbox10_form2 .svg{
+        left: 35px;
+    }
+
+    .checkbox2_form1 .svg,
+    .checkbox3_form1 .svg,
+    .checkbox5_form1 .svg,
+    .checkbox7_form1 .svg,
+    .checkbox8_form1 .svg{
+        left: 37px;
+    }
+
+    /* respuestas de la cuarta pregunta */
+
+    .p4 {
+        height: 90px;
+    }
+
+    .dm-4 {
+        height: 43px;
+        width: 43x;
+    }
     
+    .p4 h4 {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+
+
+    /* respuestas de la segunda pregunta */
+
+    .quest2-form2{
+        margin-bottom: 0px;
+    }
+
+    .p-form2 {
+        height: 90px;
+    }
+
+    .p-form2 h4{
+        font-size: 17px;
+    }
+
+    /* resumen de tu cotizacion */
+    
+    .last_btn_box{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .last_btn_box button {
+        width: 100%;
+        height: auto;
+        min-height: 35px;
+    }
+
+    .bt1{
+        margin-bottom: 20px;
+    }
+
+    .btn-enviar{
+        padding: 10px 20px;
+    }
 
 }
 
@@ -116,7 +220,6 @@
         justify-content: left;
         align-items: center;
         flex-direction: row;
-        height: 100px;
         margin-bottom: 24px;
         padding: 0 15px 0 36px;
     }
@@ -143,7 +246,6 @@
         justify-content: left;
         align-items: center;
         flex-direction: row;
-        height: 100px;
         margin-bottom: 24px;
         padding: 0 15px 0 36px;
     }
@@ -183,22 +285,75 @@
 }
 
 @media screen and (min-width: 351px) and (max-width: 480px) {
+
+    html {
+        font-size: 7.7px;
+    }
+
     .container {
         width: 95%;
-        padding: 8% 0;
+        padding: 10% 0;
     }
 
     .container header{
-        top: 35px;
+        top: 30px;
+        margin-bottom: 0;
     }
 
-    html {
-        font-size: 8px;
+    header h1 {
+        font-size: 30px;
+    }
+
+    header h2 {
+        line-height: 19px;
+        font-size: 17px;
+        margin-top: 0px;
+        max-width: 300px;
+    }
+
+    header h4 {
+        margin-top: 2px;
+        font-size: 27px;
+    }
+    
+    h3 {
+        font-size: 22px;
+        margin-bottom: 9%;
+        line-height: 22.5px;
     }
 
     .circulo {
-        width: 60px;
-        height: 60px;
+        width: 55px;
+        height: 55px;
+    }
+
+    .escala{
+        width: 22px;
+        height: 22px;
+    }
+
+    #barra_space{
+        margin-bottom: 7%;
+    }
+
+    button {
+        width: 130px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .btn-box {
+        margin-top: 10%;
+    }
+
+    #form5-linea1 .r{
+        font-size: 26px;
+        padding-bottom: 10px;
+    }
+
+    .resumen {
+        font-size: 18px;
+        padding-bottom: 20px;
     }
 
     .last_btn_box{
@@ -217,17 +372,240 @@
         margin-bottom: 20px;
     }
 
-    .bt2{
-        padding: 20px 0;
-        font-size: 20px;
+     /* circulito primera pregunta */
+
+     input[type="radio"]:checked + label .circulito {
+        width: 32px;
+        height: 32px;
+        left: -16px;
     }
 
-    #form5-linea1 .r{
-        font-size: 23px;
-        padding-bottom: 10px;
+    .circulito {
+        width: 32px;
+        height: 32px;
+        top: 28%;
+    }
+
+    .circulito svg{
+        width: 14.5px;
+        height: 14.5px;
+    }
+
+    /* circulito segunda pregunta */
+
+    input[type="radio"]:checked + label .circulito2-form1{
+        width: 32px;
+        height: 32px;
+    }
+
+    .circulito2-form1{
+        width: 32px;
+        height: 32px;
+    }
+
+    .circulito2-form1 svg{
+        width: 14.5px;
+        height: 14.5px;
+    }
+
+    /* circulito tercera pregunta */
+
+    input[type="checkbox"]:checked + label .circulito-checkbox{
+        width: 30px;
+        height: 30px;
+        left: -16px; 
+        top: 14px;
+    }
+
+    .circulito-checkbox{
+        width: 30px;
+        height: 30px;
+    }
+
+    .circulito-checkbox svg{
+        width: 13.8px;
+        height: 13.8px; 
+    }
+
+    /* circulito cuarta pregunta */
+
+    input[type="radio"]:checked + label .circulito4-form1 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .circulito4-form1{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .circulito4-form1 svg{
+        width: 13.8px;
+        height: 13.8px; 
+    }
+
+    /* label 1 op1*/
+
+    .op1{
+        padding-left: 28px;
+        margin-bottom: 24px;
+    }
+
+    .op1 h4{
+       font-size: 15px;
+       line-height: 19px;
+       width: 200px;
+    }
+
+    .dimensiones{
+        height: 33.5px;
+        width: 36px;
+    }
+
+    /* label 2 op2*/
+
+    .op2{
+        padding-left: 28px;
+        height: 70px;
+    }
+
+    .op2 h4{
+       font-size: 15px;
+       line-height: 19px;
+       width: 149px;
+    }
+
+    .dimensiones_2{
+        height: 38.8px;
+        width: 35px;
+    }
+    
+    /* respuestas de la segunda pregunta */
+
+    .op1-p2,
+    .op2-p2,
+    .op3-p2{
+        height: 75px;
+    }
+
+    .op1-p2 h4,
+    .op2-p2 h4,
+    .op3-p2 h4 {
+        height: auto;
+        margin-top: 0px;
+        font-size: 16px;
+    }
+
+    .dm-1{
+        height: 43.1px;
+        width: 35px;
+    }
+
+    .dm-2{
+        height: 31.5px;
+        width: 35px;
+    }
+
+    .dm-2 path {
+        stroke-width: 5;
+    }
+
+    .dm-3{
+        width: 35px;
+        height: 35px;
+    }
+
+    .quest2-form1{
+        margin-bottom: 0;
+    }
+
+    /* respuestas de la tercera pregunta */
+
+    .check h4{
+        font-size: 15px;
+        position: absolute;
+        left: 70px;
+        text-align: left;
+    }
+
+    .checkbox7_form1 h4{
+        width: 200px;
+        line-height: 20px;
+        top: 9px;
+    }
+
+    .checkbox_form1 .svg,
+    .checkbox4_form1 .svg,
+    .checkbox6_form1 .svg,
+    .checkbox9_form2 .svg,
+    .checkbox10_form2 .svg{
+        left: 25px;
+    }
+
+    .checkbox2_form1 .svg,
+    .checkbox3_form1 .svg,
+    .checkbox5_form1 .svg,
+    .checkbox7_form1 .svg,
+    .checkbox8_form1 .svg{
+        left: 27px;
+    }
+
+    /* respuestas de la cuarta pregunta */
+
+    .p4 {
+        height: 75px;
+    }
+
+    .dm-4 {
+        height: 37px;
+        width: 37px;
+    }
+    
+    .p4 h4 {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+
+    /* FORM--2 */
+
+    /* respuestas de la segunda pregunta */
+
+    .quest2-form2{
+        margin-bottom: 0px;
+    }
+
+    .p-form2 {
+        height: 75px;
+    }
+
+    .p-form2 h4{
+        font-size: 16px;
+    }
+
+    .dm-5{
+        width: 35px;
+        height: 40px;
+    }
+
+    .dm-6{
+        width: 39px;
+        height: 33px;
+    }
+
+    .dm-6 path {
+        stroke-width: 4;
+    }
+
+    /* resumen de tu cotizacion */
+    
+    .btn-enviar{
+        padding: 10px 20px;
     }
 
 }
+
+
+
 
 @media screen and (max-width: 350px) {
 
@@ -529,6 +907,16 @@
 
     .dm-6 path {
         stroke-width: 4;
+    }
+
+    /* resumen de tu cotizacion */
+
+    .r_h3 {
+        font-size: 20px !important;
+    }   
+
+    .btn-enviar{
+        padding: 10px 20px;
     }
 }
 
