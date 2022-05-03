@@ -4,7 +4,7 @@ include("con_db.php");
 
 if(isset($_POST['enviar'])){
     $name = trim($_POST['name']);
-    $apellidos = trim($_POST['apellidos']);
+    $telefono = trim($_POST['telefono']);
     $email = trim($_POST['email']);
     $ciudad = trim($_POST['ciudad']);
     $paraQue = trim($_POST['pregunta1']);
@@ -24,7 +24,7 @@ if(isset($_POST['enviar'])){
 
         $fecha = date("d/m/y");
         
-        $consulta = "INSERT INTO datos(nombre, apellidos, email, ciudad, para, tipo, ofrece, secciones, carrito, envios, num_productos, fecha) VALUES ('$name','$apellidos','$email','$ciudad','$paraQue','$tipo','$ofrece','$caracteristicas','$carritoCompras','$plataformaEnvios','$productos','$fecha')";
+        $consulta = "INSERT INTO datos(nombre, telefono, email, ciudad, para, tipo, ofrece, secciones, carrito, envios, num_productos, fecha) VALUES ('$name','$telefono','$email','$ciudad','$paraQue','$tipo','$ofrece','$caracteristicas','$carritoCompras','$plataformaEnvios','$productos','$fecha')";
 
         $resultado = mysqli_query($conex,$consulta);
 
@@ -54,7 +54,7 @@ if(isset($_POST['enviar'])){
 
         $fecha = date("d/m/y");
         
-        $consulta = "INSERT INTO datos(nombre, apellidos, email, ciudad, para, tipo, ofrece, secciones, carrito, envios, num_productos, fecha) VALUES ('$name','$apellidos','$email','$ciudad','$paraQue','$tipo','$ofrece','$caracteristicas','$carritoCompras','$plataformaEnvios','$productos','$fecha')";
+        $consulta = "INSERT INTO datos(nombre, telefono, email, ciudad, para, tipo, ofrece, secciones, carrito, envios, num_productos, fecha) VALUES ('$name','$telefono','$email','$ciudad','$paraQue','$tipo','$ofrece','$caracteristicas','$carritoCompras','$plataformaEnvios','$productos','$fecha')";
 
         $resultado = mysqli_query($conex,$consulta);
         /* if ($resultado) {
