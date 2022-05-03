@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./resources/css/index.css">
+    <link rel="stylesheet" href="./resources/css/indx.css">
     <link rel="stylesheet" href="./resources/css/respons.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
@@ -824,7 +824,7 @@
             <h3>6. ¿Cuántos servicios o productos te gustaría incluir?</h3>
             <div class="quest4-form1">
 
-                <input type="radio" name="pregunta6" id="op1-p6" class="pregunta6-l2 reset" data-valor="100000" value="1 - 5" form="form-query">
+                <input type="radio" name="pregunta6" id="op1-p6" class="pregunta6-l2 reset reset_cuantos2" data-valor="100000" value="1 - 5" form="form-query">
                 <label for="op1-p6" class="p4">
                     <div class="circulito4-form1">
                         <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -841,7 +841,7 @@
                     <h4>1 - 5</h4>
                 </label>
 
-                <input type="radio" name="pregunta6" id="op2-p6" class="pregunta6-l2 reset" data-valor="200000" value="5 - 10" form="form-query">
+                <input type="radio" name="pregunta6" id="op2-p6" class="pregunta6-l2 reset reset_cuantos2" data-valor="200000" value="5 - 10" form="form-query">
                 <label for="op2-p6" class="p4">
                     <div class="circulito4-form1">
                         <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -858,7 +858,7 @@
                     <h4>5 - 10</h4>
                 </label>
 
-                <input type="radio" name="pregunta6" id="op3-p6" class="pregunta6-l2 reset" data-valor="400000" value="10 - 20" form="form-query">
+                <input type="radio" name="pregunta6" id="op3-p6" class="pregunta6-l2 reset reset_cuantos2" data-valor="400000" value="10 - 20" form="form-query">
                 <label for="op3-p6" class="p4">
                     <div class="circulito4-form1">
                         <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -959,7 +959,7 @@
     <?php
     include("enviar.php");
     ?>
-    <script src="./resources/js/logic.js"></script>
+    <script src="./resources/js/pensamiento.js"></script>
     <script src="./resources/js/main.js"></script>
 </body>
 

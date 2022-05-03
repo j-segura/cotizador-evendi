@@ -51,7 +51,7 @@ var total = document.getElementById('total');
 
 var totalGlobal = 0;//el valor acumulado
 
-
+console.log('hola mundo');
 
 //funcion que le coloca los puntos al precio
 const inversa = (content) =>{
@@ -376,6 +376,11 @@ $('.btn-reset').click(function(){
 $('.reset_cuantos').click(function(){
     $('#cuantos').val('');
 });
+
+$('.reset_cuantos2').click(function(){
+    $('#cuantos2').val('');
+});
+
 
 
 
