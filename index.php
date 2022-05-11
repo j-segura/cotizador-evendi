@@ -6,12 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./resources/css/indx.css">
-    <link rel="stylesheet" href="./resources/css/respons.css">
+    <link rel="stylesheet" href="./resources/css/main.css">
+    <link rel="stylesheet" href="./resources/css/responsive.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 
 <body onload="obtenerTamaño();" onresize="obtenerTamaño();">
+
+    <!-- barra de navegacion -->
+
+    <!-- <?php
+    include('navBar.php');
+    ?> -->
+
     <div class="pink"></div>
 
     <div class="container">

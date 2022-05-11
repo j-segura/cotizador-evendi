@@ -16,7 +16,6 @@ html{
 
 body {
   background-color: rgb(249, 249, 249);
-  padding: 2px;
 }
 
 .pink {
@@ -61,7 +60,7 @@ body {
   margin-bottom: 7%;
 }
 
-header h1 {
+.container header h1 {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -71,7 +70,7 @@ header h1 {
   color: #6c1c81;
 }
 
-header h2 {
+.container header h2 {
   font-family: Quicksand;
   font-style: normal;
   font-weight: normal;
@@ -82,7 +81,7 @@ header h2 {
   margin-top: 9px;
 }
 
-header h4 {
+.container header h4 {
   font-family: Quicksand;
   font-style: normal;
   font-weight: normal;
@@ -96,7 +95,7 @@ header h4 {
 
 /* formularios */
 
-h3 {
+.container h3 {
   font-family: Quicksand;
   font-style: normal;
   font-weight: normal;
@@ -147,7 +146,7 @@ h3 {
   padding-bottom: 25px;
 }
 
-.resumen {
+.container .resumen {
   font-family: 'Quicksand';
   font-style: normal;
   font-weight: 500;
@@ -166,7 +165,7 @@ h3 {
 
 }
 
-.resumen p {
+.container .resumen p {
   margin-bottom: 19px;
 }
 
@@ -208,7 +207,7 @@ h3 {
 
 /* botones */
 
-.btn-box {
+.container .btn-box {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -1281,7 +1280,7 @@ input[type="radio"]:checked + label .number {
     margin: 9px 0 18px 0;
 }
 
-.color{
+.color {
     color: rgb(253, 166, 95);
     font-size: 17px;
 }
@@ -1331,7 +1330,7 @@ input[type="radio"]:checked + label .number {
     margin: 0;
 }
 
-.cubo{
+.cubo {
     width: 19px;
     min-width: 19px;
     height: 19px;
